@@ -47,17 +47,18 @@
 
             </div>
             <div class="text-center">
-                <button type="button" class="btn btn-secondary btn-floating mx-4">
-                    <i class="fab fa-facebook-f"></i>
-                </button>
+                <a target="_blank" href="https://goo.gl/maps/Huodahg9ByfWA9YPA">
+                    <button type="button" class="btn btn-secondary btn-floating mx-4">
+                        <i class="fa fa-map "></i>
+                    </button>
+                </a>
 
-                <button type="button" class="btn btn-secondary btn-floating mx-4">
-                    <i class="fab fa-instagram"></i>
-                </button>
+                <a target="_blank" href="https://github.com/FelipePatinoR/Proyecto_Final">
+                    <button type="button" class="btn btn-secondary btn-floating mx-4">
+                        <i class="fab fa-github"></i>
+                    </button>
+                </a>
 
-                <button type="button" class="btn btn-secondary btn-floating mx-4">
-                    <i class="fab fa-github"></i>
-                </button>
             </div>
         </div>
         <!-- Background image -->
