@@ -87,9 +87,6 @@
                             <a class="dropdown-item" href="#">Mi Perfil</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Configuracion</a>
-                        </li>
-                        <li>
                             <a class="dropdown-item" href="#">Cerrar Sesion</a>
                         </li>
                     </ul>
