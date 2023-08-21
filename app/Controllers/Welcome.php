@@ -6,11 +6,11 @@ class Welcome extends BaseController
 {
     public function welcome_page(): string
     {
-        return view('welcome');
+        return view('Welcome/welcome');
     }
 
     public function login_page(): string
     {
-        return view('login.php');
+        return view('Login/login');
     }
 }

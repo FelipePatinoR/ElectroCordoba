@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  background-color: #180148;
+  background-color: #bcbf17;
   overflow: hidden;
 }
 
@@ -33,7 +33,7 @@ body {
   width: 600px;
   margin: 30px auto 0;
   height: 320px;
-  background-color: #999ede;
+  background-color: #bcbf17;
   top: 50%;
   margin-top: -160px;
   -moz-transition: all 0.5s;
@@ -57,7 +57,7 @@ body {
   position: absolute;
   left: 152px;
   top: 50px;
-  background-color: #9297e0;
+  background-color: #bcbf17;
   transform: rotateX(52deg) rotateY(15deg) rotateZ(-38deg);
   width: 300px;
   height: 285px;
@@ -68,7 +68,7 @@ body {
 }
 
 .container .box:after {
-  background-color: #a5aae4;
+  background-color: #bcbf17;
   top: -10px;
   left: 80px;
   width: 320px;
@@ -176,7 +176,7 @@ button .abc{
   position: absolute;
   left: 160px;
   top: -50px;
-  color: #5356ad;
+  color: #bcbf17;
   font-size: 130px;
   opacity: 0;
   -moz-transition: all 0.5s;
@@ -255,7 +255,7 @@ button .abc{
   position: absolute;
   left: 51px;
   top: 5px;
-  color: #5356ad;
+  color: #bcbf17;
   font-size: 130px;
   opacity: 1;
 }

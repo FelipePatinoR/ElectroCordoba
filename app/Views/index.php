@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera Aplicacion</title>
+    <title>ElectroCorodoba</title>
+    <link rel="shortcut icon" href="<?php base_url()?>img/icon_pestaña.png" />
 
     <!-- MDBoostrap -->
     <!-- Font Awesome -->
@@ -32,7 +33,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Toggle button -->
@@ -45,9 +46,10 @@
             <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
-                <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                    <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15"
-                        alt="MDB Logo" loading="lazy" />
+                <a class="navbar-brand mt-2 mt-lg-0" href="<?php echo base_url()?>main/">
+                    <img src="<?php base_url()?>img/icon_pestaña.png" height="15"
+                        alt="ElectroCordoba" loading="lazy" />
+                        ElectroCordoba
                 </a>
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -77,7 +79,7 @@
                 <div class="dropdown">
                     <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
                         id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                        <img src="<?php base_url()?>img/icon_usuario.png" class="rounded-circle" height="25"
                             alt="Black and White Portrait of a Man" loading="lazy" />
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
