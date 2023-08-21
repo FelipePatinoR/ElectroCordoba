@@ -33,15 +33,31 @@
     <header>
         <!-- Background image -->
         <div class="p-5 text-center bg-image"
-            style="background-image: url('<?php base_url()?>img/Fondo2.jpg'); height: 619px; width: 1325px;">
+            style="background-image: url('<?php base_url() ?>img/Fondo2.jpg'); height: 619px; width: 1325px;">
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
                 <div class="d-flex justify-content-center align-items-center h-100">
                     <div class="text-white">
                         <h1 class="mb-3">ElectroCordoba</h1>
                         <h4 class="mb-3">Bienvenid@</h4>
-                        <a class="btn btn-outline-light btn-lg" href="<?php echo base_url()?>login" role="button" >Comenzar</a> 
+                        <a class="btn btn-outline-light btn-lg" href="<?php echo base_url() ?>login"
+                            role="button">Comenzar</a>
                     </div>
+
                 </div>
+
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-secondary btn-floating mx-4">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-4">
+                    <i class="fab fa-instagram"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-floating mx-4">
+                    <i class="fab fa-github"></i>
+                </button>
             </div>
         </div>
         <!-- Background image -->
