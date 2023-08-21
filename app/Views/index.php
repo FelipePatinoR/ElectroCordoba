@@ -33,7 +33,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixedpadding-top<body>">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Toggle button -->

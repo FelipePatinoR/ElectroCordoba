@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="carousel-item data-mdb-interval='1'">
-                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide2.jpg" class="d-block w-50" alt="Camera" />
+                    <img src="<?php base_url()?>img/Carrusel_Main/Slide2.jpg" class="d-block w-50" alt="Camera" />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Productos garantizados y de la mejor calidad</p>
