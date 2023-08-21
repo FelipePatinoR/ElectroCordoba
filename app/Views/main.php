@@ -16,14 +16,14 @@
                     <img src="<?php base_url() ?>img/Carrusel_Main/Slide1.jpg" class="d-block w-50"
                         alt="Wild Landscape" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h1 style="color: black">ElectroCordoba</h1>
+                        <p style="color: black">Bienvenid@ a la tienda virtual de la mejor ferreteria del pais</p>
                     </div>
                 </div>
                 <div class="carousel-item data-mdb-interval='1'">
-                    <img src="<?php base_url()?>img/Carrusel_Main/Slide2.jpg" class="d-block w-50" alt="Camera" />
+                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide2.jpg" class="d-block w-50" alt="Camera" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                        <h1 style="color: white">Garantia y Calidad</h1>
                         <p>Productos garantizados y de la mejor calidad</p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                     <img src="<?php base_url() ?>img/Carrusel_Main/Slide3.jpg" class="d-block w-50"
                         alt="Exotic Fruits" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
+                        <h1 style="color: white">Personal Capacitado</h1>
                         <p>Acerquese para darnos el gusto de atenderlo</p>
                     </div>
                 </div>
