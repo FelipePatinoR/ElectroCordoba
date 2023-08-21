@@ -84,7 +84,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
                         <li>
-                            <a class="dropdown-item" href="#">Mi Perfil</a>
+                            <a class="dropdown-item" href="<?php echo base_url()?>mi_perfil">Mi Perfil</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="#">Configuracion</a>
