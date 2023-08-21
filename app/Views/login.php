@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="es_ES">
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ElectroCordoba </title>
     <link rel="stylesheet" href="<?php base_url() ?>css/style.css">
 

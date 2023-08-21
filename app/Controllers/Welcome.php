@@ -4,13 +4,13 @@ namespace App\Controllers;
 
 class Welcome extends BaseController
 {
-    public function WelcomePag(): string
+    public function welcome_page(): string
     {
         return view('welcome');
     }
 
-    public function Login(): string
+    public function login_page(): string
     {
-        return view('login');
+        return view('login.php');
     }
 }

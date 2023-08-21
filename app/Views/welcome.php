@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es_ES">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera Aplicacion</title>
+    <title>Electro Corodoba</title>
     <!-- MDBoostrap -->
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
@@ -39,7 +39,7 @@
                     <div class="text-white">
                         <h1 class="mb-3">ElectroCordoba</h1>
                         <h4 class="mb-3">Bienvenid@</h4>
-                        <a class="btn btn-outline-light btn-lg" href="<?php echo base_url() ?>Login/"  role="button" >Comenzar</a> 
+                        <a class="btn btn-outline-light btn-lg" href="<?php echo base_url()?>login" role="button" >Comenzar</a> 
                     </div>
                 </div>
             </div>
