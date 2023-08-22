@@ -87,7 +87,7 @@
                             <a class="dropdown-item" href="<?php echo base_url()?>mi_perfil">Mi Perfil</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Cerrar Sesion</a>
+                            <a class="dropdown-item" href="<?php echo base_url()?>">Cerrar Sesion</a>
                         </li>
                     </ul>
                 </div>

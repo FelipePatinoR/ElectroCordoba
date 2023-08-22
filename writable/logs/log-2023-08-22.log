@@ -1,0 +1,11 @@
+CRITICAL - 2023-08-22 04:55:14 --> Undefined variable $i
+in APPPATH\Views\Perfil\perfil.php on line 14.
+ 1 APPPATH\Views\Perfil\perfil.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Views\\Perfil\\perfil.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Views\\Perfil\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Perfil/perfil', [], true)
+ 5 APPPATH\Controllers\Perfil.php(9): view('Perfil/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perfil->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

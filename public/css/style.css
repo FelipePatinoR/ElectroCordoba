@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500&display=swap);
 
+h1{
+  text-align: center;
+  font-size: 50px;
+}
 body {
   position: absolute;
   left: 0;
@@ -7,7 +11,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  background-color: #bcbf17;
+  background-color: #aaaaaa;
   overflow: hidden;
 }
 
@@ -32,8 +36,8 @@ body {
   width: 600px;
   margin: 30px auto 0;
   height: 320px;
-  background-color: #bcbf17;
-  top: 50%;
+  background-color: #6a95e6;
+  top: 35%;
   margin-top: -160px;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -56,7 +60,7 @@ body {
   position: absolute;
   left: 152px;
   top: 50px;
-  background-color: #bcbf17;
+  background-color: #594feb;
   transform: rotateX(52deg) rotateY(15deg) rotateZ(-38deg);
   width: 300px;
   height: 285px;
@@ -67,7 +71,7 @@ body {
 }
 
 .container .box:after {
-  background-color: #bcbf17;
+  background-color: #594feb;
   top: -10px;
   left: 80px;
   width: 320px;
@@ -84,7 +88,7 @@ body {
   margin: 0 auto;
   width: 60px;
   color: #fff;
-  background-color: #ff73b3;
+  background-color: #d8bf6c;
   opacity: 1;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -96,7 +100,7 @@ body {
   opacity: 0.7;
 }
 
-button .abc{
+button .abc {
   width: 100%;
   height: 100%;
 }
@@ -162,7 +166,7 @@ button .abc{
   top: -30px;
   width: 305px;
   height: 380px;
-  background-color: #fff;
+  background-color: #707fa8;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -186,7 +190,7 @@ button .abc{
 
 .container .container-form .btn {
   position: relative;
-  box-shadow: 0 0 10px 1px #ff73b3;
+  box-shadow: 0 0 10px 1px #d8bf6c;
   margin-top: 30px;
 }
 
@@ -285,5 +289,5 @@ button .abc{
   bottom: 20px;
   right: 20px;
   z-index: 3;
-  fill: #fff;
+  fill: #47afdf;
 }

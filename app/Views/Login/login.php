@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ElectroCordoba </title>
-    <link rel="stylesheet" href="<?php base_url()?>css/style.css">
+    <link rel="stylesheet" href="<?php base_url() ?>css/style.css">
 
 </head>
 
 <body>
+    <div>
+        <h1>ElectroCordoba</h1>
+    </div>
+
     <div class="container">
-        <div class="box"></div>
         <div class="container-forms">
             <div class="container-info">
                 <div class="info-item">
@@ -57,7 +60,9 @@
                                 </div>
                                 <!-- Boton Iniciar Sesion -->
                                 <div class="btn">
-                                    <button type="submit" class="abc">Iniciar Sesion</button>
+                                    <a type="button" href="<?php echo base_url() ?>main">
+                                        Iniciar Sesion
+                                    </a>
                                 </div>
                             </form>
                         </div>
@@ -68,14 +73,19 @@
                     <div class="table">
                         <div class="table-cell">
                             <form>
-                                <!-- Usuario -->
-                                <div class="form-outline mb-4">
-                                    <input type="text" id="usuario_signin" class="form-control" placeholder="Usuario" />
-                                </div>
                                 <!-- Correo Electronico -->
                                 <div class="form-outline mb-4">
                                     <input type="email" id="correo_signin" class="form-control"
                                         placeholder="Correo Electronico" />
+                                </div>
+                                <!-- Usuario -->
+                                <div class="form-outline mb-4">
+                                    <input type="text" id="usuario_signin" class="form-control" placeholder="Usuario" />
+                                </div>
+                                <!-- Telefono -->
+                                <div class="form-outline mb-4">
+                                    <input type="tel" id="telefono_signin" class="form-control"
+                                        placeholder="Telefono" />
                                 </div>
                                 <!-- Contraseña -->
                                 <div class="form-outline mb-4">
@@ -88,10 +98,12 @@
                                         placeholder="Confirmar Contraseña" />
                                 </div>
                                 <!-- Submit button -->
-                                <div type="submit" class="btn">
-                                    Crear Cuenta
-                                    <!-- <button type="submit" class="btn btn-primary btn-block mb-4">Crear Cuenta</button> -->
+                                <div class="btn">
+                                    <a type="button" href="<?php echo base_url() ?>main">
+                                        Crear Cuenta
+                                    </a>
                                 </div>
+
                             </form>
                         </div>
                     </div>
