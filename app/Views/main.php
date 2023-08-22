@@ -13,26 +13,26 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active data-mdb-interval='1'">
-                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide1.jpg" class="d-block w-50"
-                        alt="Wild Landscape" />
+                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide_1.jpg" class="d-block w-90"
+                        alt="Wild Landscape"/>
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 style="color: black">ElectroCordoba</h1>
-                        <p style="color: black">Bienvenid@ a la tienda virtual de la mejor ferreteria del pais</p>
+                        <h1 style="color: white">ElectroCordoba</h1>
+                        <p style="color: white">Bienvenid@ a la tienda virtual de la mejor ferretería del país</p>
                     </div>
                 </div>
                 <div class="carousel-item data-mdb-interval='1'">
-                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide2.jpg" class="d-block w-50" alt="Camera" />
+                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide_2.jpg" class="d-block w-90" alt="Camera" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 style="color: white">Garantia y Calidad</h1>
-                        <p>Productos garantizados y de la mejor calidad</p>
+                        <h1 style="color: black">Garantía y Calidad</h1>
+                        <p style="color: black">Productos garantizados y de la mejor calidad</p>
                     </div>
                 </div>
                 <div class="carousel-item data-mdb-interval='1'">
-                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide3.jpg" class="d-block w-50"
+                    <img src="<?php base_url() ?>img/Carrusel_Main/Slide_3.jpg" class="d-block w-90"
                         alt="Exotic Fruits" />
                     <div class="carousel-caption d-none d-md-block">
                         <h1 style="color: white">Personal Capacitado</h1>
-                        <p>Acerquese para darnos el gusto de atenderlo</p>
+                        <p>Acérquese para darnos el gusto de atenderlo</p>
                     </div>
                 </div>
             </div>
@@ -47,6 +47,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <br>
+        <h2>¿Quiéres saber más de nosotros?</h2>
+        <button type="button" class="btn btn-outline-primary" data-mdb-ripple-color="dark">Conócenos</button>
     </center>
 </div>
 <?php echo $this->endSection(); ?>

@@ -54,13 +54,13 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 1</a>
+                        <a class="nav-link" href="#">Tienda Virtual</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pagina 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 3</a>
+                        <a class="nav-link" href="#">A cerca de</a>
                     </li>
                 </ul>
                 <!-- Left links -->
