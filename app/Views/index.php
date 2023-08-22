@@ -54,7 +54,7 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tienda Virtual</a>
+                        <a class="nav-link" href="<?php echo base_url()?>tienda">Tienda Virtual</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pagina 2</a>

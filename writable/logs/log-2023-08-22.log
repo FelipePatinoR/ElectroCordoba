@@ -9,3 +9,33 @@ in APPPATH\Views\Perfil\perfil.php on line 14.
  7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perfil))
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 20:53:57 --> Invalid file: "navbar_tienda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar_tienda.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('navbar_tienda', [], true)
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/tienda_virtual', [], true)
+ 4 APPPATH\Controllers\Tienda.php(9): view('Tienda/tienda_virtual')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tienda->tienda()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 21:02:21 --> Invalid file: "inavbar_tienda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inavbar_tienda.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('inavbar_tienda', [], true)
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/tienda_virtual', [], true)
+ 4 APPPATH\Controllers\Tienda.php(9): view('Tienda/tienda_virtual')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tienda->tienda()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 21:02:34 --> Invalid file: "navbar_tienda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar_tienda.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('navbar_tienda', [], true)
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/tienda_virtual', [], true)
+ 4 APPPATH\Controllers\Tienda.php(9): view('Tienda/tienda_virtual')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tienda->tienda()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tienda))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

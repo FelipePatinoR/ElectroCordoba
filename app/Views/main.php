@@ -17,14 +17,14 @@
                         alt="Wild Landscape"/>
                     <div class="carousel-caption d-none d-md-block">
                         <h1 style="color: white">ElectroCordoba</h1>
-                        <p style="color: white">Bienvenid@ a la tienda virtual de la mejor ferretería del país</p>
+                        <h5 style="color: white">Bienvenid@ a la tienda virtual de la mejor ferretería del país</h5>
                     </div>
                 </div>
                 <div class="carousel-item data-mdb-interval='1'">
                     <img src="<?php base_url() ?>img/Carrusel_Main/Slide_2.jpg" class="d-block w-90" alt="Camera" />
                     <div class="carousel-caption d-none d-md-block">
                         <h1 style="color: black">Garantía y Calidad</h1>
-                        <p style="color: black">Productos garantizados y de la mejor calidad</p>
+                        <h5 style="color: black">Productos garantizados y de la mejor calidad</h5>
                     </div>
                 </div>
                 <div class="carousel-item data-mdb-interval='1'">
@@ -32,7 +32,7 @@
                         alt="Exotic Fruits" />
                     <div class="carousel-caption d-none d-md-block">
                         <h1 style="color: white">Personal Capacitado</h1>
-                        <p>Acérquese para darnos el gusto de atenderlo</p>
+                        <h5>Acérquese para darnos el gusto de atenderlo</h5>
                     </div>
                 </div>
             </div>
