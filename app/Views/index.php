@@ -47,20 +47,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
                 <a class="navbar-brand mt-2 mt-lg-0" href="<?php echo base_url()?>main/">
-                    <img src="<?php base_url()?>img/icon_pestaña.png" height="15"
+                    <img src="<?php base_url()?>img/icon_pestaña.png" height="40"
                         alt="ElectroCordoba" loading="lazy" />
-                        ElectroCordoba
+                        ELECTROCORDOBA
                 </a>
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url()?>tienda">Tienda Virtual</a>
+                        <a class="nav-link" href="<?php echo base_url()?>tienda">TIENDA VIRTUAL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pagina 2</a>
+                        <a class="nav-link" href="#">PAGINA 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">A cerca de</a>
+                        <a class="nav-link" href="#">A CERCA DE</a>
                     </li>
                 </ul>
                 <!-- Left links -->
