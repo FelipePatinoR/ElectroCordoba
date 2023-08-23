@@ -25,7 +25,7 @@
         </li>
         <li class="nav-item">
           <div class="btn-group">
-            <a type="button" class="nav-link">EQUIPO DE SOLDADURA</a>
+            <a type="button" class="nav-link" href="<?php echo base_url() ?>tienda/equipo_de_soldadura">EQUIPO DE SOLDADURA</a>
             <a type="button" class="nav-link dropdown-toggle dropdown-toggle-split" data-mdb-toggle="dropdown"
               aria-expanded="false">
               <span class="visually-hidden">Toggle Dropdown</span>
@@ -39,7 +39,7 @@
         </li>
         <li class="nav-item">
           <div class="btn-group">
-            <a type="button" class="nav-link">HERRAMIENTAS ELECTRICAS</a>
+            <a type="button" class="nav-link" href="<?php echo base_url() ?>tienda/herramientas_electricas">HERRAMIENTAS ELECTRICAS</a>
             <a type="button" class="nav-link dropdown-toggle dropdown-toggle-split" data-mdb-toggle="dropdown"
               aria-expanded="false">
               <span class="visually-hidden">Toggle Dropdown</span>
@@ -56,12 +56,12 @@
         </li>
         <li class="nav-item">
           <div class="btn-group">
-            <a type="button" class="nav-link">EQUIPO PARA JARDINERIA</a>
+            <a type="button" class="nav-link" href="<?php echo base_url() ?>tienda/equipo_jardineria">EQUIPO PARA JARDINERIA</a>
           </div>
         </li>
         <li class="nav-item">
           <div class="btn-group">
-            <a type="button" class="nav-link">EQUIPOS DE MEDICION Y NIVELACION</a>
+            <a type="button" class="nav-link" href="<?php echo base_url() ?>tienda/equipos_medicion_nivelacion">EQUIPOS DE MEDICION Y NIVELACION</a>
           </div>
         </li>
       </ul>

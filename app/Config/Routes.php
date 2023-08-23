@@ -36,6 +36,13 @@ $routes->get('/main', 'Home::index');
 $routes->get('/mi_perfil', 'Perfil::perfil');
 $routes->get('/tienda', 'Tienda::tienda_main');
 $routes->get('/tienda/herramientas_manuales', 'Tienda::main_hm');
+$routes->get('/tienda/equipo_de_soldadura', 'Tienda::main_es');
+$routes->get('/tienda/herramientas_electricas', 'Tienda::main_he');
+$routes->get('/tienda/equipo_jardineria', 'Tienda::main_ej');
+$routes->get('/tienda/equipos_medicion_nivelacion', 'Tienda::main_emn');
+
+
+
 
 
 
