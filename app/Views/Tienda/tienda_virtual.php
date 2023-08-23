@@ -2,5 +2,4 @@
 <?php echo $this->section('navbar'); ?>
 <br>
 
-
 <?php echo $this->endSection(); ?>

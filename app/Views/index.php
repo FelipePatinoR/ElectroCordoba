@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElectroCorodoba</title>
-    <link rel="shortcut icon" href="<?php base_url()?>img/icon_pestaña.png" />
+    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana.jpg" />
 
     <!-- MDBoostrap -->
     <!-- Font Awesome -->
@@ -46,15 +46,14 @@
             <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
-                <a class="navbar-brand mt-2 mt-lg-0" href="<?php echo base_url()?>main/">
-                    <img src="<?php base_url()?>img/icon_pestaña.png" height="40"
-                        alt="ElectroCordoba" loading="lazy" />
-                        ELECTROCORDOBA
+                <a class="navbar-brand mt-2 mt-lg-0" href="<?php echo base_url() ?>main/">
+                    <img src="<?php echo base_url() ?>img/icon_pestana.jpg" height="40" alt="ElectroCordoba" loading="lazy" />
+                    ELECTROCORDOBA
                 </a>
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url()?>tienda">TIENDA VIRTUAL</a>
+                        <a class="nav-link" href="<?php echo base_url() ?>tienda">TIENDA VIRTUAL</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">PAGINA 2</a>
@@ -79,15 +78,15 @@
                 <div class="dropdown">
                     <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
                         id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                        <img src="<?php base_url()?>img/icon_usuario.png" class="rounded-circle" height="25"
+                        <img src="<?php echo base_url() ?>img/icon_usuario.jpg" class="rounded-circle" height="25"
                             alt="Black and White Portrait of a Man" loading="lazy" />
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
                         <li>
-                            <a class="dropdown-item" href="<?php echo base_url()?>mi_perfil">Mi Perfil</a>
+                            <a class="dropdown-item" href="<?php echo base_url() ?>mi_perfil">Mi Perfil</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="<?php echo base_url()?>">Cerrar Sesion</a>
+                            <a class="dropdown-item" href="<?php echo base_url() ?>">Cerrar Sesion</a>
                         </li>
                     </ul>
                 </div>
@@ -100,5 +99,6 @@
 
     <?php echo $this->renderSection('content'); ?>
 </body>
+
 
 </html>
