@@ -34,7 +34,9 @@ $routes->get('/', 'Welcome::welcome_page');
 $routes->get('login', 'Welcome::login_page');
 $routes->get('/main', 'Home::index');
 $routes->get('/mi_perfil', 'Perfil::perfil');
-$routes->get('/tienda', 'Tienda::tienda');
+$routes->get('/tienda', 'Tienda::tienda_main');
+$routes->get('/tienda/herramientas_manuales', 'Tienda::main_hm');
+
 
 
 

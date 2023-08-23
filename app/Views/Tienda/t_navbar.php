@@ -5,88 +5,63 @@
     <ul class="navbar-nav">
       <!-- Dropdown -->
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-          data-mdb-toggle="dropdown" aria-expanded="false">
-          HERRAMIENTAS MANUALES
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">Alicates y Pinzas</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Cajas y Soportes para Herramientas</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Candados y Cerrajeria</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Cinceles</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Destornilladores</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Martillos</a>
-          </li>
-        </ul>
+      <li class="nav-item">
+        <div class="btn-group">
+          <a type="button" class="nav-link" href="<?php echo base_url() ?>tienda/herramientas_manuales">HERRAMIENTAS
+            MANUALES</a>
+          <a type="button" class="nav-link dropdown-toggle dropdown-toggle-split" data-mdb-toggle="dropdown"
+            aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Alicates y Pinzas</a></li>
+            <li><a class="dropdown-item" href="#">Cajas y Soportes para Herramientas</a></li>
+            <li><a class="dropdown-item" href="#">Candados y Cerrajeria</a></li>
+            <li><a class="dropdown-item" href="#">Cinceles</a></li>
+            <li><a class="dropdown-item" href="#">Destornilladores</a></li>
+            <li><a class="dropdown-item" href="#">Martillos</a></li>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
-          data-mdb-toggle="dropdown" aria-expanded="false">
-          EQUIPO PARA JARDINERIA
-        </a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-          data-mdb-toggle="dropdown" aria-expanded="false">
-          EQUIPOS DE SODADURA
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">Accesorios y Consumibles</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Proceso Arco Manual</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Proceso MIG</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Proceso TIG</a>
-          </li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-          data-mdb-toggle="dropdown" aria-expanded="false">
-          HERRAMIENTAS ELECTRICAS
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li>
-            <a class="dropdown-item" href="#">Atornilladores</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Cizallas</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Conrtadoras de Concreto</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Lijadoras</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Mezcladoras</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Taladros</a>
-          </li>
-        </ul>
+        <div class="btn-group">
+          <a type="button" class="nav-link">EQUIPO DE SOLDADURA</a>
+          <a type="button" class="nav-link dropdown-toggle dropdown-toggle-split" data-mdb-toggle="dropdown"
+            aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Accesorios y Consumibles</a></li>
+            <li><a class="dropdown-item" href="#">Proceso Arco Manual</a></li>
+            <li><a class="dropdown-item" href="#">Proceso MIG</a></li>
+            <li><a class="dropdown-item" href="#">Proceso TIG</a></li>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button"
-          data-mdb-toggle="dropdown" aria-expanded="false">
-          EQUIPOS DE MEDICION Y NIVELACION
-        </a>
+        <div class="btn-group">
+          <a type="button" class="nav-link">HERRAMIENTAS ELECTRICAS</a>
+          <a type="button" class="nav-link dropdown-toggle dropdown-toggle-split" data-mdb-toggle="dropdown"
+            aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Atornilladores</a></li>
+            <li><a class="dropdown-item" href="#">Cizallas</a></li>
+            <li><a class="dropdown-item" href="#">Cortadoras de Concreto</a></li>
+            <li><a class="dropdown-item" href="#">Lijadoras</a></li>
+            <li><a class="dropdown-item" href="#">Mezcladoras</a></li>
+            <li><a class="dropdown-item" href="#">Taladros</a></li>
+
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="btn-group">
+          <a type="button" class="nav-link">EQUIPO PARA JARDINERIA</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="btn-group">
+          <a type="button" class="nav-link">EQUIPOS DE MEDICION Y NIVELACION</a>
+        </div>
       </li>
     </ul>
   </div>
