@@ -31,6 +31,7 @@
 
 <body>
     <header>
+        <div></div>
         <!-- Background image -->
         <div class="p-5 text-center bg-image"
             style="background-image: url('<?php base_url() ?>img/Fondo2.jpg'); height: 619px; width: 1325px;">

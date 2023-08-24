@@ -24,6 +24,9 @@
             font-style: normal;
             font-weight: normal;
         }
+        body {
+            background-image: url('<?php echo base_url()?>img/Fondo.jpg');
+        }
     </style>
     <!-- Boostrap -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -42,7 +45,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixedpadding-top<body>">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black" style="position: fixedpadding-top<body>">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Toggle button -->
