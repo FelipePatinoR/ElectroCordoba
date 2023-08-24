@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ElectroCorodoba</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana.jpg" />
+    <title>Electrodoba</title>
+    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana.png" />
 
     <!-- MDBoostrap -->
     <!-- Font Awesome -->
@@ -17,6 +17,14 @@
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
 
+    <style>
+        @font-face {
+            font-family: 'ArtBrush';
+            src: url('<?php echo base_url() ?>fonts/Artbrush.ttf') format('truetype');
+            font-style: normal;
+            font-weight: normal;
+        }
+    </style>
     <!-- Boostrap -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -29,6 +37,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script> -->
+
 </head>
 
 <body>
@@ -47,8 +56,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
                 <a class="navbar-brand mt-2 mt-lg-0" href="<?php echo base_url() ?>main/">
-                    <img src="<?php echo base_url() ?>img/icon_pestana.jpg" height="40" alt="ElectroCordoba" loading="lazy" />
-                    ELECTROCORDOBA
+                    <img src="<?php echo base_url() ?>img/icon_pestana.png" height="50" alt="ElectroCordoba"
+                        loading="lazy" />
+                    <label for="ElectroCordoba" style="font-family: ArtBrush; cursor: pointer;">ElectroCordoba</label>
+
                 </a>
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
