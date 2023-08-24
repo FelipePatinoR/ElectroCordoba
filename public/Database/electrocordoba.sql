@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 24-08-2023 a las 19:36:34
+-- Tiempo de generación: 25-08-2023 a las 00:53:51
 -- Versión del servidor: 10.4.28-MariaDB-log
 -- Versión de PHP: 8.2.4
 
@@ -40,7 +40,6 @@ CREATE TABLE `categoria` (
 
 CREATE TABLE `compra` (
   `id_venta` int(11) NOT NULL,
-  `Id_producto` int(11) NOT NULL,
   `cantidad` int(11) NOT NULL,
   `id_usuario` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -57,7 +56,7 @@ CREATE TABLE `producto` (
   `cantidad` int(11) NOT NULL,
   `precio` double NOT NULL,
   `id_venta` int(11) DEFAULT NULL,
-  `id_categoria` int(11) DEFAULT NULL
+  `id_subcategoria` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -111,7 +110,7 @@ ALTER TABLE `compra`
 ALTER TABLE `producto`
   ADD PRIMARY KEY (`id_producto`),
   ADD KEY `id_venta` (`id_venta`),
-  ADD KEY `id_categoria` (`id_categoria`);
+  ADD KEY `id_subcategoria` (`id_subcategoria`);
 
 --
 -- Indices de la tabla `subcategoria`
@@ -125,6 +124,40 @@ ALTER TABLE `subcategoria`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`id_usuario`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `categoria`
+--
+ALTER TABLE `categoria`
+  MODIFY `id_categoria` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `compra`
+--
+ALTER TABLE `compra`
+  MODIFY `id_venta` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `producto`
+--
+ALTER TABLE `producto`
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `subcategoria`
+--
+ALTER TABLE `subcategoria`
+  MODIFY `id_subcategoria` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `usuario`
+--
+ALTER TABLE `usuario`
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restricciones para tablas volcadas
@@ -141,7 +174,7 @@ ALTER TABLE `compra`
 --
 ALTER TABLE `producto`
   ADD CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`id_venta`) REFERENCES `compra` (`id_venta`),
-  ADD CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`id_categoria`) REFERENCES `categoria` (`id_categoria`);
+  ADD CONSTRAINT `producto_ibfk_2` FOREIGN KEY (`id_subcategoria`) REFERENCES `subcategoria` (`id_subcategoria`);
 
 --
 -- Filtros para la tabla `subcategoria`
