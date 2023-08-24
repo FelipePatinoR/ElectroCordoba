@@ -45,7 +45,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black" style="position: fixedpadding-top<body>">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top" >
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Toggle button -->
@@ -59,7 +59,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar brand -->
                 <a class="navbar-brand mt-2 mt-lg-0" href="<?php echo base_url() ?>main/">
-                    <img src="<?php echo base_url() ?>img/icon_pestana.png" height="50" alt="ElectroCordoba"
+                    <img src="<?php echo base_url() ?>img/icon_pestana_white.png" height="50" alt="ElectroCordoba"
                         loading="lazy" />
                     <label for="ElectroCordoba" style="font-family: ArtBrush; cursor: pointer;">ElectroCordoba</label>
 

@@ -1,8 +1,8 @@
 <?php echo $this->extend('index'); ?>
 <?php echo $this->section('content'); ?>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" style="background-color: rgba(255, 255, 255, 0.1);">
-    <div class="container-fluid" style="background-color: rgba(255, 255, 255, 0.1);">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <div class="container-fluid" style="background-color: rgba(255, 255, 255, 0.0);">
       <ul class="navbar-nav">
         <!-- Dropdown -->
         <li class="nav-item dropdown">
