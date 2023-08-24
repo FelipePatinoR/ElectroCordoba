@@ -46,7 +46,7 @@
             </button>
         </div>
         <br>
-        <h2>¿Quiéres saber más de nosotros?</h2>
+        <h1 style="color: white;">¿Quiéres saber más de nosotros?</h1>
         <button type="button" class="btn btn-outline-primary" data-mdb-ripple-color="dark">Conócenos</button>
     </center>
 </div>

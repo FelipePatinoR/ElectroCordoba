@@ -35,9 +35,23 @@ $routes->get('login', 'Welcome::login_page');
 $routes->get('/main', 'Home::index');
 $routes->get('/mi_perfil', 'Perfil::perfil');
 $routes->get('/tienda', 'Tienda::tienda_main');
+
 $routes->get('/tienda/herramientas_manuales', 'Tienda::main_hm');
+$routes->get('/tienda/herramientas_manuales/alicates_y_pinzas', 'H_Manuales::alicates_pinzas');
+$routes->get('/tienda/herramientas_manuales/destornilladores', 'H_Manuales::destornilladores');
+$routes->get('/tienda/herramientas_manuales/martillos', 'H_Manuales::martillos');
+
 $routes->get('/tienda/equipo_de_soldadura', 'Tienda::main_es');
+$routes->get('/tienda/equipo_de_soldadura/accesorios', 'E_Soldadura::accesorios');
+$routes->get('/tienda/equipo_de_soldadura/arco_manual', 'E_Soldadura::arco_manual');
+$routes->get('/tienda/equipo_de_soldadura/mig', 'E_Soldadura::mig');
+
+
 $routes->get('/tienda/herramientas_electricas', 'Tienda::main_he');
+$routes->get('/tienda/herramientas_electricas/atornilladores', 'H_Electricas::atornilladores');
+$routes->get('/tienda/herramientas_electricas/taladros', 'H_Electricas::taladros');
+
+
 $routes->get('/tienda/equipo_jardineria', 'Tienda::main_ej');
 $routes->get('/tienda/equipos_medicion_nivelacion', 'Tienda::main_emn');
 

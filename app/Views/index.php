@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electrodoba</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana.png" />
+    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana_white.png" />
 
     <!-- MDBoostrap -->
     <!-- Font Awesome -->

@@ -1,0 +1,45 @@
+CRITICAL - 2023-08-24 06:25:24 --> Invalid file: "Tienda/H_Manuales/alic_y_pin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tienda/H_Manuales/alic_y_pin.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/H_Manuales/alic_y_pin', [], true)
+ 3 APPPATH\Controllers\H_Manuales.php(9): view('Tienda/H_Manuales/alic_y_pin')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\H_Manuales->alicates_pinzas()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H_Manuales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 06:50:51 --> Invalid file: "Tienda/E_Soldadura/marti.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tienda/E_Soldadura/marti.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/E_Soldadura/marti', [], true)
+ 3 APPPATH\Controllers\H_Manuales.php(17): view('Tienda/E_Soldadura/marti')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\H_Manuales->martillos()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H_Manuales))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 07:06:03 --> Invalid file: "Tienda/E_Soldadura/mig.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tienda/E_Soldadura/mig.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/E_Soldadura/mig', [], true)
+ 3 APPPATH\Controllers\E_Soldadura.php(17): view('Tienda/E_Soldadura/mig')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\E_Soldadura->mig()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\E_Soldadura))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 07:30:32 --> Invalid file: "Tienda/H_Electricas/atorn.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tienda/H_Electricas/atorn.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/H_Electricas/atorn', [], true)
+ 3 APPPATH\Controllers\H_Electricas.php(9): view('Tienda/H_Electricas/atorn')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\H_Electricas->atornilladores()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H_Electricas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 07:30:34 --> Invalid file: "Tienda/H_Electricas/talad.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tienda/H_Electricas/talad.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Tienda/H_Electricas/talad', [], true)
+ 3 APPPATH\Controllers\H_Electricas.php(13): view('Tienda/H_Electricas/talad')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\H_Electricas->taladros()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H_Electricas))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

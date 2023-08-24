@@ -15,12 +15,9 @@
               <span class="visually-hidden">Toggle Dropdown</span>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Alicates y Pinzas</a></li>
-              <li><a class="dropdown-item" href="#">Cajas y Soportes para Herramientas</a></li>
-              <li><a class="dropdown-item" href="#">Candados y Cerrajeria</a></li>
-              <li><a class="dropdown-item" href="#">Cinceles</a></li>
-              <li><a class="dropdown-item" href="#">Destornilladores</a></li>
-              <li><a class="dropdown-item" href="#">Martillos</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/herramientas_manuales/alicates_y_pinzas">Alicates y Pinzas</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/herramientas_manuales/destornilladores">Destornilladores</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/herramientas_manuales/martillos">Martillos</a></li>
           </div>
         </li>
         <li class="nav-item">
@@ -31,10 +28,9 @@
               <span class="visually-hidden">Toggle Dropdown</span>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Accesorios y Consumibles</a></li>
-              <li><a class="dropdown-item" href="#">Proceso Arco Manual</a></li>
-              <li><a class="dropdown-item" href="#">Proceso MIG</a></li>
-              <li><a class="dropdown-item" href="#">Proceso TIG</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/equipo_de_soldadura/accesorios">Accesorios y Consumibles</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/equipo_de_soldadura/arco_manual">Proceso Arco Manual</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/equipo_de_soldadura/mig">Proceso MIG</a></li>
           </div>
         </li>
         <li class="nav-item">
@@ -45,12 +41,8 @@
               <span class="visually-hidden">Toggle Dropdown</span>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Atornilladores</a></li>
-              <li><a class="dropdown-item" href="#">Cizallas</a></li>
-              <li><a class="dropdown-item" href="#">Cortadoras de Concreto</a></li>
-              <li><a class="dropdown-item" href="#">Lijadoras</a></li>
-              <li><a class="dropdown-item" href="#">Mezcladoras</a></li>
-              <li><a class="dropdown-item" href="#">Taladros</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/herramientas_electricas/atornilladores">Atornilladores</a></li>
+              <li><a class="dropdown-item" href="<?php echo base_url() ?>tienda/herramientas_electricas/taladros">Taladros</a></li>
 
           </div>
         </li>
