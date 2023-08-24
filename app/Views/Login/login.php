@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ElectroCordoba </title>
     <link rel="stylesheet" href="<?php base_url() ?>css/style.css">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana_white.png" />
+    <style>
+        body {
+            background-image: url("<?php echo base_url() ?>img/Fondo.jpg");
 
+        }
+    </style>
 </head>
 
 <body>
-    <div>
-        <h1>ElectroCordoba</h1>
-    </div>
 
+    <div style="text-align: center;">
+        <img style="height: 150px;" src="<?php echo base_url() ?>img/icon_pestana_white.png" id="logo">
+        
+    </div>
     <div class="container">
         <div class="container-forms">
             <div class="container-info">
@@ -60,7 +67,7 @@
                                 </div>
                                 <!-- Boton Iniciar Sesion -->
                                 <div class="btn">
-                                    <a type="button" href="<?php echo base_url() ?>main">
+                                    <a type="submit" href="<?php echo base_url() ?>main">
                                         Iniciar Sesion
                                     </a>
                                 </div>
@@ -72,34 +79,34 @@
                 <div class="form-item sign-up">
                     <div class="table">
                         <div class="table-cell">
-                            <form>
+                            <form method="POST" >
                                 <!-- Correo Electronico -->
                                 <div class="form-outline mb-4">
-                                    <input type="email" id="correo_signin" class="form-control"
+                                    <input type="email" id="correo_signin" name="correo_signin" class="form-control"
                                         placeholder="Correo Electronico" />
                                 </div>
                                 <!-- Usuario -->
                                 <div class="form-outline mb-4">
-                                    <input type="text" id="usuario_signin" class="form-control" placeholder="Usuario" />
+                                    <input type="text" id="usuario_signin" name="usuario_signin" class="form-control" placeholder="Usuario" />
                                 </div>
                                 <!-- Telefono -->
                                 <div class="form-outline mb-4">
-                                    <input type="tel" id="telefono_signin" class="form-control"
+                                    <input type="tel" id="telefono_signin" name="telefono_signin" class="form-control"
                                         placeholder="Telefono" />
                                 </div>
                                 <!-- Contraseña -->
                                 <div class="form-outline mb-4">
-                                    <input type="password" id="contrasena1_signin" class="form-control"
+                                    <input type="password" id="contrasena1_signin" name="contrasena1_signin" class="form-control"
                                         placeholder="Contraseña" />
                                 </div>
                                 <!-- Confirmar Contraseña -->
                                 <div class="form-outline mb-4">
-                                    <input type="password" id="contrasena2_signin" class="form-control"
+                                    <input type="password" id="contrasena2_signin" name="contrasena2_signin" class="form-control"
                                         placeholder="Confirmar Contraseña" />
                                 </div>
                                 <!-- Submit button -->
                                 <div class="btn">
-                                    <a type="button" href="<?php echo base_url() ?>main">
+                                    <a type="submit" href="<?php echo base_url() ?>main" onclick="comprobarClave()">
                                         Crear Cuenta
                                     </a>
                                 </div>

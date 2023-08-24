@@ -3,7 +3,9 @@
 h1{
   text-align: center;
   font-size: 50px;
+  margin: auto;
 }
+
 body {
   position: absolute;
   left: 0;
@@ -32,11 +34,11 @@ body {
 }
 
 .container {
+  background-color: #342ca8;
   position: relative;
   width: 600px;
   margin: 30px auto 0;
   height: 320px;
-  background-color: #6a95e6;
   top: 35%;
   margin-top: -160px;
   -moz-transition: all 0.5s;
@@ -56,11 +58,11 @@ body {
 
 .container .box:before,
 .container .box:after {
+  background-color: #342ca8;
   content: " ";
   position: absolute;
   left: 152px;
   top: 50px;
-  background-color: #594feb;
   transform: rotateX(52deg) rotateY(15deg) rotateZ(-38deg);
   width: 300px;
   height: 285px;
@@ -71,7 +73,7 @@ body {
 }
 
 .container .box:after {
-  background-color: #594feb;
+  background-color: #342ca8;
   top: -10px;
   left: 80px;
   width: 320px;
@@ -88,7 +90,7 @@ body {
   margin: 0 auto;
   width: 60px;
   color: #fff;
-  background-color: #d8bf6c;
+  background-color: #8ace5c;
   opacity: 1;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
