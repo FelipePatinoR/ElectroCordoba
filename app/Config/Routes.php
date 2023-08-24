@@ -31,7 +31,10 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Welcome::welcome_page');
-$routes->get('login', 'Welcome::login_page');
+
+$routes->get('/login', 'Welcome::login_page');
+$routes->post('/login', 'Usuario::registrar');
+
 $routes->get('/main', 'Home::index');
 $routes->get('/mi_perfil', 'Perfil::perfil');
 $routes->get('/tienda', 'Tienda::tienda_main');

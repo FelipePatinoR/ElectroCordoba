@@ -34,7 +34,7 @@
         <div></div>
         <!-- Background image -->
         <div class="p-5 text-center bg-image"
-            style="background-image: url('<?php base_url() ?>img/Fondo2.jpg'); height: 619px; width: 1325px;">
+            style="background-image: url('<?php base_url() ?>img/Fondo2.jpg');  height: 100vh; ">
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
                 <div class="d-flex justify-content-center align-items-center h-100">
                     <div class="text-white">

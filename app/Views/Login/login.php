@@ -7,6 +7,7 @@
     <title> ElectroCordoba </title>
     <link rel="stylesheet" href="<?php base_url() ?>css/style.css">
     <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana_white.png" />
+
     <style>
         body {
             background-image: url("<?php echo base_url() ?>img/Fondo.jpg");
@@ -19,7 +20,7 @@
 
     <div style="text-align: center;">
         <img style="height: 150px;" src="<?php echo base_url() ?>img/icon_pestana_white.png" id="logo">
-        
+
     </div>
     <div class="container">
         <div class="container-forms">
@@ -54,7 +55,7 @@
                 <div class="form-item log-in">
                     <div class="table">
                         <div class="table-cell">
-                            <form>
+                            <form method="" action="">
                                 <!-- Correo Electronico -->
                                 <div class="form-outline mb-4">
                                     <input type="email" id="correo_login" class="form-control"
@@ -66,11 +67,7 @@
                                         placeholder="Contraseña" />
                                 </div>
                                 <!-- Boton Iniciar Sesion -->
-                                <div class="btn">
-                                    <a type="submit" href="<?php echo base_url() ?>main">
-                                        Iniciar Sesion
-                                    </a>
-                                </div>
+                                <input type="submit" value="Iniciar Sesion"></input>
                             </form>
                         </div>
                     </div>
@@ -79,7 +76,7 @@
                 <div class="form-item sign-up">
                     <div class="table">
                         <div class="table-cell">
-                            <form method="POST" >
+                            <form method="post" action="<?php echo base_url() ?>login">
                                 <!-- Correo Electronico -->
                                 <div class="form-outline mb-4">
                                     <input type="email" id="correo_signin" name="correo_signin" class="form-control"
@@ -87,7 +84,8 @@
                                 </div>
                                 <!-- Usuario -->
                                 <div class="form-outline mb-4">
-                                    <input type="text" id="usuario_signin" name="usuario_signin" class="form-control" placeholder="Usuario" />
+                                    <input type="text" id="usuario_signin" name="usuario_signin" class="form-control"
+                                        placeholder="Usuario" />
                                 </div>
                                 <!-- Telefono -->
                                 <div class="form-outline mb-4">
@@ -96,21 +94,16 @@
                                 </div>
                                 <!-- Contraseña -->
                                 <div class="form-outline mb-4">
-                                    <input type="password" id="contrasena1_signin" name="contrasena1_signin" class="form-control"
-                                        placeholder="Contraseña" />
+                                    <input type="password" id="contrasena1_signin" name="contrasena1_signin"
+                                        class="form-control" placeholder="Contraseña" />
                                 </div>
                                 <!-- Confirmar Contraseña -->
                                 <div class="form-outline mb-4">
-                                    <input type="password" id="contrasena2_signin" name="contrasena2_signin" class="form-control"
-                                        placeholder="Confirmar Contraseña" />
+                                    <input type="password" id="contrasena2_signin" name="contrasena2_signin"
+                                        class="form-control" placeholder="Confirmar Contraseña" />
                                 </div>
                                 <!-- Submit button -->
-                                <div class="btn">
-                                    <a type="submit" href="<?php echo base_url() ?>main" onclick="comprobarClave()">
-                                        Crear Cuenta
-                                    </a>
-                                </div>
-
+                                <input type="submit" value="Crear Cuenta"> </input>
                             </form>
                         </div>
                     </div>

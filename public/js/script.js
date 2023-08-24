@@ -3,13 +3,14 @@ $(".info-item .btn").click(function () {
 });
 
 function comprobarClave() {
-  pass1 = URL('<?php echo base_url?>../Views/Login/login.php').getElementById('contrasena1_signin').value
-  alert(pass1);
-  pass2 = URL('<?php echo base_url?>../Views/Login/login.php').getElementById('contrasena2_signin').value
 
-  if (pass1 == pass2) {
-    alert("Registro exitoso...\nReadireccionando a la pagina principal...")
-  } else {
-    alert("las contraseñas no coinciden...")
+  if ($_POST) {
+    $pass = $_POST['contrasena1_signin'];
+    $pass2 = $_POST['contrasena2_signin'];
+    if ($pass == $pass2) {
+      echo ("Registro exitoso");
+    }
+
   }
+
 }

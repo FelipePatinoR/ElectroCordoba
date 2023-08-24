@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electrodoba</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana_white.png" />
 
     <!-- MDBoostrap -->
     <!-- Font Awesome -->
@@ -24,8 +23,9 @@
             font-style: normal;
             font-weight: normal;
         }
+
         body {
-            background-image: url('<?php echo base_url()?>img/Fondo.jpg');
+            background-image: url('<?php echo base_url() ?>img/Fondo.jpg');
         }
     </style>
     <!-- Boostrap -->
@@ -40,12 +40,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script> -->
+    <link rel="shortcut icon" href="<?php echo base_url() ?>img/icon_pestana2.png" />
 
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Toggle button -->
