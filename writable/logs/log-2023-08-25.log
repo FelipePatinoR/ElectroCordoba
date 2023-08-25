@@ -912,3 +912,13 @@ in APPPATH\Controllers\Usuario.php on line 23.
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 >>>>>>> ae8c45086bb11b0c5f56759ceaa757ce6f1a2318
+INFO - 2023-08-25 19:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 19:26:45 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Usuario.php(72): view('login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

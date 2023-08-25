@@ -41,7 +41,7 @@
     <div class="row justify-content-center">
         <div class="col-md-4 border">
             <br>
-            <form method="post" action="<?php echo base_url('login') ?>">
+            <form method="POST" action="<?php echo base_url()?>login">
                 <!-- Email input -->
                 <div class="form-outline mb-4 bg-light border border-5 border-white">
                     <input type="email" id="email" name="email"class="form-control" />
