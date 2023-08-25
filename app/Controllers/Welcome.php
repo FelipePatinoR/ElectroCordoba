@@ -16,4 +16,9 @@ class Welcome extends BaseController
     {
         return view('Login/register');
     }
+
+    public function prueba(): string
+    {
+        return view('prueba');
+    }
 }
