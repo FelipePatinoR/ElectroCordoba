@@ -61,6 +61,7 @@ $routes->get('/tienda/equipo_jardineria', 'Tienda::main_ej');
 $routes->get('/tienda/equipos_medicion_nivelacion', 'Tienda::main_emn');
 
 
+$routes->get('/Acerca_de', 'Acercade::acercade');
 
 
 
