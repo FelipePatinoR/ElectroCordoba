@@ -74,7 +74,7 @@
                         <a class="nav-link" href="#">PAGINA 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">A CERCA DE</a>
+                        <a class="nav-link" href="<?php echo base_url()?>Acerca_de">A CERCA DE</a>
                     </li>
                 </ul>
                 <!-- Left links -->

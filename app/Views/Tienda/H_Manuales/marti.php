@@ -83,8 +83,7 @@
             <div class="modal-header">
                 <div class="container-fluid">
                     <div class="row text-start">
-                        <h5 class="modal-title">MARTILLO CON MANGO DE MADERA CABEZA CÓNICA
-                        </h5>
+                        <h5 class="modal-title">MARTILLO CON MANGO DE MADERA CABEZA CÓNICA</h5>
                     </div>
                     <div class="row text-start">
                         <label>Referencia:</label>
@@ -93,16 +92,24 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;"
-                        src="<?php echo base_url() ?>img/Herramientas_Manuales/Martillos/martillo-con-mango-de-madera-cabeza-conica-stanley.jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 250px;"
+                                src="<?php echo base_url() ?>img/Herramientas_Manuales/Martillos/martillo-con-mango-de-madera-cabeza-conica-stanley.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Especificaciones</h6>
+                            <p>Martillo con Mango de Madera Cabeza Cónica</p>
+                            <ul>
+                                <li>La cabeza del martillo está fija con 2 cuñas para más durabilidad.</li>
+                                <li>Uñas del martillo 15% más largas para más facilidad al sacar clavos.</li>
+                                <li>Peso de cabeza: 369g</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -114,6 +121,7 @@
         </div>
     </div>
 </div>
+
 <!-- MODAL 2 -->
 <div class="modal fade" tabindex="-1" id="modal_2" _mstvisible="0">
     <div class="modal-dialog modal-lg">
@@ -130,15 +138,23 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;"
-                        src="<?php echo base_url() ?>img/Herramientas_Manuales/Martillos/martillo-de-bola.jpg" alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 250px;"
+                                src="<?php echo base_url() ?>img/Herramientas_Manuales/Martillos/martillo-de-bola.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Especificaciones</h6>
+                            <p>Herramientas de Golpe Martillo de Bola 16 oz Peso Cabeza (454 g)</p>
+                            <ul>
+                                <li>Cabeza completamente pulida.</li>
+                                <li>La cabeza del martillo está fija con 2 cuñas para más durabilidad.</li>
+                                <li>Mango 25% más largo en los tamaños 16-40 ozs para mejor equilibrio y control.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -150,6 +166,7 @@
         </div>
     </div>
 </div>
+
 <!-- MODAL 3 -->
 <div class="modal fade" tabindex="-1" id="modal_3" _mstvisible="0">
     <div class="modal-dialog modal-lg">
@@ -157,8 +174,7 @@
             <div class="modal-header">
                 <div class="container-fluid">
                     <div class="row text-start">
-                        <h5 class="modal-title">MARTILLO DE BOLA 10 ONZAS STANLEY
-                        </h5>
+                        <h5 class="modal-title">MARTILLO DE BOLA 10 ONZAS STANLEY</h5>
                     </div>
                     <div class="row text-start">
                         <label>Referencia:</label>
@@ -167,16 +183,24 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;"
-                        src="<?php echo base_url() ?>img/Herramientas_Manuales/Martillos/martillo-de-bola(1).jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 250px;"
+                                src="<?php echo base_url() ?>img/Herramientas_Manuales/Martillos/martillo-de-bola(1).jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Especificaciones</h6>
+                            <p>Herramientas de Golpe Martillo de Bola 16 oz Peso Cabeza (454 g)</p>
+                            <ul>
+                                <li>Cabeza completamente pulida.</li>
+                                <li>La cabeza del martillo está fija con 2 cuñas para más durabilidad.</li>
+                                <li>Mango 25% más largo en los tamaños 16-40 ozs para mejor equilibrio y control.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -188,4 +212,5 @@
         </div>
     </div>
 </div>
+
 <?php echo $this->endSection(); ?>

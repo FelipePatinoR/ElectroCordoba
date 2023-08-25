@@ -1,3 +1,178 @@
+<<<<<<< HEAD
+ERROR - 2023-08-25 03:48:38 --> mysqli_sql_exception: Unknown column 'email_usu' in 'field list' in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(47): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 03:48:38 --> Unknown column 'email_usu' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`email_usu`, `nombre_usu`, `tel_usu`, `cont_usu`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`email_usu`, `nombre_usu`, `tel_usu`, `cont_usu`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`email_usu`, `nombre_usu`, `tel_usu`, `cont_usu`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`email_usu`, `nombre_usu`, `tel_usu`, `cont_usu`) VALUES (:email_usu:, :nombre_usu:, :tel_usu:, :cont_usu:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 03:51:56 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 03:53:52 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 03:54:01 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 03:56:06 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 03:59:02 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 03:59:25 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:00:47 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:00:57 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:01:31 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:11:44 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:11:50 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:12:33 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:14:40 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:16:56 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:17:05 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:17:15 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+=======
 ERROR - 2023-08-25 00:12:22 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'electrocordoba' in C:\xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:173
 Stack trace:
 #0 C:\xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'electrocordoba', 3306, '', 0)
@@ -41,3 +216,699 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
  9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+>>>>>>> bdd2b25b22ba6a3710af0277f85d57df2d9107fe
+<<<<<<< HEAD
+CRITICAL - 2023-08-25 04:41:23 --> There is no data to insert.
+=======
+CRITICAL - 2023-08-25 04:22:10 --> There is no data to insert.
+>>>>>>> 83396c330914872c6273f58503d320fa5379c3bd
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+<<<<<<< HEAD
+=======
+CRITICAL - 2023-08-25 04:25:00 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:29:54 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:29:59 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:31:05 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 04:32:22 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 04:46:38 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 04:46:38 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 04:47:40 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 04:47:40 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 04:47:44 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 04:47:44 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 04:50:42 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 04:50:42 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 04:56:15 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 04:56:15 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 04:56:42 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 04:56:42 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 05:22:40 --> Declaration of App\Controllers\Usuario::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Usuario.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-08-25 05:30:57 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:30:57 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:31:01 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:31:01 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:37:45 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:37:45 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:37:49 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:37:49 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:39:07 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:39:07 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:47:27 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(48): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:47:27 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:49:15 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(48): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:49:15 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:57:27 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(48): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:57:27 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 05:59:59 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(64): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 05:59:59 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 06:11:58 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(55): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 06:11:58 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(55): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 06:16:24 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(61): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 06:16:24 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(61): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 06:16:36 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(61): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 06:16:36 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(61): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 06:20:02 --> mysqli_sql_exception: Column 'nombre' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(61): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 06:20:02 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(61): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 06:22:51 --> mysqli_sql_exception: Column 'correo' cannot be null in D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\app\Controllers\Usuario.php(61): CodeIgniter\Model->insert(Array)
+#8 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+#9 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#10 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ARCHIVOS PROGRAMAS INSTALADOS\Xampp\htdocs\Proyecto_Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-25 06:22:51 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuario` (`correo`, `nombre`, `telefono`, `contraseña`) VALUES (:correo:, :nombre:, :telefono:, :contraseña:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuario.php(61): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->registrar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 06:36:59 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Controllers\Usuario.php on line 23.
+ 1 APPPATH\Controllers\Usuario.php(23): count(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 06:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:53:30 --> Undefined array key "contraseña"
+in APPPATH\Controllers\Usuario.php on line 24.
+ 1 APPPATH\Controllers\Usuario.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contraseña"', 'D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Controllers\\Usuario.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 06:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+<<<<<<< HEAD
+INFO - 2023-08-25 16:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
+>>>>>>> 83396c330914872c6273f58503d320fa5379c3bd
+CRITICAL - 2023-08-25 14:38:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Usuario.php on line 23.
+ 1 APPPATH\Controllers\Usuario.php(23): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 14:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 15:20:24 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Usuario.php on line 23.
+ 1 APPPATH\Controllers\Usuario.php(23): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+>>>>>>> ae8c45086bb11b0c5f56759ceaa757ce6f1a2318

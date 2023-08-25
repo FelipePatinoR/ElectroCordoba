@@ -92,15 +92,32 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;" src="<?php echo base_url() ?>img/Equipos_Medicion_Nivelacion/medidor-de-distancia-laser-20-metros-bosch-glm-20.jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 350px;" src="<?php echo base_url() ?>img/Equipos_Medicion_Nivelacion/medidor-de-distancia-laser-20-metros-bosch-glm-20.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>CARACTERÍSTICAS</h6>
+                            <ul>
+                                <li>Alcance de trabajo: Mide hasta 20 m</li>
+                                <li>Pantalla iluminada aumenta la visibilidad</li>
+                                <li>Medición en tiempo real: Medición ajustada automáticamente más cerca y más lejos del objetivo, como una cinta manual.</li>
+                                <li>Versatilidad de medición: las unidades de medidas incluyen ahora: ft., in. y m.</li>
+                                <li>Tamaño compacto: cabe en cualquier bolsillo</li>
+                                <li>Mantiene la última medición mientras toma otra.</li>
+                            </ul>
+                            
+                            <h6>DATOS TÉCNICOS</h6>
+                            <ul>
+                                <li>Diodo láser: 635 nm, < 1 mW</li>
+                                <li>Rango de medición: 0,15 – 20,00</li>
+                                
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -112,6 +129,7 @@
         </div>
     </div>
 </div>
+
 <!-- MODAL 2 -->
 <div class="modal fade" tabindex="-1" id="modal_2" _mstvisible="0">
     <div class="modal-dialog modal-lg">
@@ -128,15 +146,30 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;" src="<?php echo base_url() ?>img/Equipos_Medicion_Nivelacion/termometro-infrarojo-bosch-gis-500.jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 350px;" src="<?php echo base_url() ?>img/Equipos_Medicion_Nivelacion/termometro-infrarojo-bosch-gis-500.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Características</h6>
+                            <ul>
+                                <li>La mejor solución intuitiva y profesional para medir la temperatura de las superficie, revisión de sistema de aire acondicionado, ventilación y calefacción, mecánica automotriz, para revisión de temperatura de superficies de tubos y combustión, revisión de partes mecánicas en zonas difícil acceso, para el electricista a encontrar fusibles defectuosos y partes sobre calentadas, en general para medir cualquier tipo de temperatura que se requiera desde menos 30 grados hasta + 500 grados centigrados..</li>
+                                <li>Lente infrarroja: Medición de la temperatura de la superficie del rango de -30°C a + 500 grados centígrados.</li>
+                                
+                            </ul>
+                            
+                            <h6>Especificaciones</h6>
+                            <ul>
+                                <li>Modelo: GIS 500</li>
+                                <li>Rango de Medición: Temperatura de la superficie: -30°C a +500 grados Centígrados.</li>
+                               
+                            </ul>
+                            
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -148,15 +181,16 @@
         </div>
     </div>
 </div>
+
 <!-- MODAL 3 -->
+
 <div class="modal fade" tabindex="-1" id="modal_3" _mstvisible="0">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <div class="container-fluid">
                     <div class="row text-start">
-                        <h5 class="modal-title">REGLA DE MEDICION PARA NIVEL OPTICO 5 MTS BOSCH GR500
-                        </h5>
+                        <h5 class="modal-title">REGLA DE MEDICION PARA NIVEL OPTICO 5 MTS BOSCH GR500</h5>
                     </div>
                     <div class="row text-start">
                         <label>Referencia:</label>
@@ -165,15 +199,28 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;" src="<?php echo base_url() ?>img/Equipos_Medicion_Nivelacion/nivel-laser-bosch-autonivelante-2-lineas-15-metros.jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 350px;" src="<?php echo base_url() ?>img/Equipos_Medicion_Nivelacion/nivel-laser-bosch-autonivelante-2-lineas-15-metros.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <p>La Regla de Medición Bosch GR 500 fue desarrollada para trabajar juntamente con el Nivel Láser Óptico GOL 26 D garantizando de esta manera una mayor exactitud en las nivelaciones y servicios realizados, ya que es fabricada en aluminio y tiene escala graduada que permite juntamente con el Nivel Láser GOL 26 D realizar además de las nivelaciones, el cálculo de distancias, es telescópica con apertura máxima de hasta 5 metros.</p>
+                            
+                            <h6>Características</h6>
+                            <ul>
+                                <li>Medición: capacidad de medición de hasta 5 metros</li>
+                                <li>Indicada para nivel óptico Bosch GOL 26 D</li>
+                                <li>Para uso en las condiciones más extremas</li>
+                                <li>Retráctil, para facilitar su transporte y almacenamiento</li>
+                            </ul>
+                            
+                            <h6>Aplicaciones</h6>
+                            <p>Medición de alturas para nivelación</p>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>

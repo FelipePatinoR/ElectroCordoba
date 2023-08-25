@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-08-2023 a las 02:14:50
--- Versión del servidor: 10.4.28-MariaDB-log
+-- Tiempo de generación: 25-08-2023 a las 09:44:39
+-- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -137,10 +137,15 @@ CREATE TABLE `usuario` (
   `nombre` varchar(50) NOT NULL,
   `correo` varchar(40) NOT NULL,
   `telefono` int(10) NOT NULL,
-  `direccion` varchar(40) NOT NULL,
-  `imagen` blob NOT NULL,
   `contraseña` varchar(16) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`id_usuario`, `nombre`, `correo`, `telefono`, `contraseña`) VALUES
+(1, 'default', 'default@gmail.com', 777777, '123');
 
 --
 -- Índices para tablas volcadas
@@ -212,7 +217,7 @@ ALTER TABLE `subcategoria`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- Restricciones para tablas volcadas
