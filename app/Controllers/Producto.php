@@ -8,9 +8,9 @@ class Producto extends BaseController
     public function index()
     {
         $producto = new ProductoModel();
-        $data2 = $producto->findAll();
-        $data2 = ['data2' => $data2];
-        return view('productos/listado', $data2);
+        $electrocordoba= $producto->findAll();
+        $electrocordoba= ['data2' => $electrocordoba];
+        return view('productos/listado', $electrocordoba);
     }
 
     public function form_registro()
@@ -21,15 +21,15 @@ class Producto extends BaseController
     public function registrar()
     {
         $producto = new ProductoModel();
-        $data2 = [
+        $electrocordoba = [
             'nombre' => $this->request->getPost('nombre'),
             'cantidad' => $this->request->getPost('cantidad'),
             'precio' => $this->request->getPost('precio'),
-            'subcategoria' => $this->request->getPost('subcategoria'),
+            'id_subcategoria' => $this->request->getPost('id_subcategoria'),
 
         ];
-        $producto->insert($data2);
-        return redirect()->to(base_url().'productos');
+        $producto->insert($electrocordoba);
+        return redirect()->to(base_url().'productos/registrar');
     }
 
 

@@ -18,7 +18,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($data2 as $i): ?>
+            <?php foreach ($electrocordoba as $i): ?>
                 <tr>
                     <th scope="row">
                         <?php echo $i['id_producto'] ?>
