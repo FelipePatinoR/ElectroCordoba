@@ -10,8 +10,7 @@ class UserModel extends Model
     protected $primaryKey       = 'id_usuario';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
-    protected $allowedFields    = ['nombre, correo, telefono, direccion, imagen, contraseña'];
+    protected $allowedFields    = ['nombre', 'correo', 'telefono', 'contraseña','tipo'];
 
     
-
 }

@@ -40,7 +40,6 @@ $routes->get('/main', 'Home::index');
 $routes->get('/mi_perfil', 'Perfil::perfil');
 $routes->get('/tienda', 'Tienda::tienda_main');
 
-
 $routes->get('/tienda/herramientas_manuales', 'Tienda::main_hm');
 $routes->get('/tienda/herramientas_manuales/alicates_y_pinzas', 'H_Manuales::alicates_pinzas');
 $routes->get('/tienda/herramientas_manuales/destornilladores', 'H_Manuales::destornilladores');
