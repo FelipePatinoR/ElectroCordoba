@@ -63,14 +63,12 @@
                 <div class=" justify-content-center">
                     <div class="form-outline mb-4 bg-light border border-5 border-white">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="type1" id="type1"
-                                value="1" />
+                            <input class="form-check-input" type="radio" name="type1" id="type1" value="1" />
                             <label class="form-check-label" for="type1">Usuario</label>
                         </div>
 
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="type2" id="type2"
-                                value="2" />
+                            <input class="form-check-input" type="radio" name="type2" id="type2" value="2" />
                             <label class="form-check-label" for="type2">Administrador</label>
                         </div>
                     </div>

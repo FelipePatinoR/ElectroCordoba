@@ -3,7 +3,6 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\UserModel;
-use SebastianBergmann\Environment\Console;
 
 class Usuario extends BaseController
 {
@@ -26,11 +25,12 @@ class Usuario extends BaseController
 			$session = session();
 			$session->set($data);
 
-			return redirect()->to(base_url('/login'))->with('mensaje','Sesion iniciada correctamente');
+			return redirect()->to(base_url('main'))->with('mensaje','Sesion iniciada correctamente');
 
 		} else {
-			return redirect()->to(base_url('/main'))->with('mensaje','Datos Incorrectos');
+			return redirect()->to(base_url('login'))->with('mensaje','Datos Incorrectos');
 		}
+
 
 	}
 
