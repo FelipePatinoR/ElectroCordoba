@@ -47,7 +47,7 @@
         </div>
         <br>
         <h1 style="color: white;">¿Quiéres saber más de nosotros?</h1>
-        <button type="button" class="btn btn-outline-primary" data-mdb-ripple-color="dark">Conócenos</button>
+        <a href="<?php echo base_url()?>Acerca_de"><button type="button" class="btn btn-outline-primary" data-mdb-ripple-color="dark" >Conócenos</button></a>
     </center>
 </div>
 <?php echo $this->endSection(); ?>
