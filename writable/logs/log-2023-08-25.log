@@ -217,7 +217,11 @@ in SYSTEMPATH\Database\BaseConnection.php on line 427.
  9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 >>>>>>> bdd2b25b22ba6a3710af0277f85d57df2d9107fe
+<<<<<<< HEAD
+CRITICAL - 2023-08-25 04:41:23 --> There is no data to insert.
+=======
 CRITICAL - 2023-08-25 04:22:10 --> There is no data to insert.
+>>>>>>> 83396c330914872c6273f58503d320fa5379c3bd
 in SYSTEMPATH\BaseModel.php on line 762.
  1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
  2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
@@ -226,6 +230,8 @@ in SYSTEMPATH\BaseModel.php on line 762.
  5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
  6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+<<<<<<< HEAD
+=======
 CRITICAL - 2023-08-25 04:25:00 --> There is no data to insert.
 in SYSTEMPATH\BaseModel.php on line 762.
  1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
@@ -884,4 +890,25 @@ INFO - 2023-08-25 07:15:47 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-25 07:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 07:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 07:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+<<<<<<< HEAD
 INFO - 2023-08-25 16:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
+>>>>>>> 83396c330914872c6273f58503d320fa5379c3bd
+CRITICAL - 2023-08-25 14:38:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Usuario.php on line 23.
+ 1 APPPATH\Controllers\Usuario.php(23): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 14:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 15:20:24 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Usuario.php on line 23.
+ 1 APPPATH\Controllers\Usuario.php(23): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+>>>>>>> ae8c45086bb11b0c5f56759ceaa757ce6f1a2318
