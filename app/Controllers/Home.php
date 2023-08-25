@@ -8,4 +8,14 @@ class Home extends BaseController
     {
         return view('main');
     }
+
+    public function index():string
+    {
+        return viw('login');
+    }
+
+    public function inicio()
+    {
+        return viw('inicio');
+    }
 }   
