@@ -31,20 +31,21 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Welcome::welcome_page');
-
+$routes->get('/register', 'Welcome::register_page');
 $routes->get('/login', 'Welcome::login_page');
-$routes->post('/login', 'Usuario::login'); // Una sola ruta para manejar el inicio de sesión y el registro
-
+$routes->post('/login', 'Usuario::login');
 
 
 $routes->get('/main', 'Home::index');
 $routes->get('/mi_perfil', 'Perfil::perfil');
 $routes->get('/tienda', 'Tienda::tienda_main');
 
+
 $routes->get('/tienda/herramientas_manuales', 'Tienda::main_hm');
 $routes->get('/tienda/herramientas_manuales/alicates_y_pinzas', 'H_Manuales::alicates_pinzas');
 $routes->get('/tienda/herramientas_manuales/destornilladores', 'H_Manuales::destornilladores');
 $routes->get('/tienda/herramientas_manuales/martillos', 'H_Manuales::martillos');
+
 
 $routes->get('/tienda/equipo_de_soldadura', 'Tienda::main_es');
 $routes->get('/tienda/equipo_de_soldadura/accesorios', 'E_Soldadura::accesorios');
@@ -62,10 +63,6 @@ $routes->get('/tienda/equipos_medicion_nivelacion', 'Tienda::main_emn');
 
 
 $routes->get('/Acerca_de', 'Acercade::acercade');
-
-
-
-
 
 
 /*
