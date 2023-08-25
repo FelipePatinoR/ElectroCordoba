@@ -1,13 +1,13 @@
 <?php echo $this->extend('index'); ?>
 <?php echo $this->section('content'); ?>
 
-<div class="container">
-    <h1>Registro de Productos</h1>
+<div class="container" >
+    <h1 >Registro de Productos</h1>
 
-    <form method="POST" action="<?php echo base_url()?>productos/registrar">
+    <form method="POST" action="<?php echo base_url()?>productos/registrar" class="text-white">
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre Producto</label>
-            <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="nombre" name="nombre" >
         </div>
         <div class="mb-3">
             <label for="cantidad" class="form-label">Cantidad Producto</label>
