@@ -890,6 +890,9 @@ INFO - 2023-08-25 07:15:47 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-25 07:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 07:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 07:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+<<<<<<< HEAD
+INFO - 2023-08-25 16:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
 >>>>>>> 83396c330914872c6273f58503d320fa5379c3bd
 CRITICAL - 2023-08-25 14:38:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
 in APPPATH\Controllers\Usuario.php on line 23.
@@ -908,3 +911,4 @@ in APPPATH\Controllers\Usuario.php on line 23.
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+>>>>>>> ae8c45086bb11b0c5f56759ceaa757ce6f1a2318

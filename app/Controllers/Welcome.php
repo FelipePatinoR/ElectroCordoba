@@ -8,9 +8,12 @@ class Welcome extends BaseController
     {
         return view('Welcome/welcome');
     }
-
     public function login_page(): string
     {
         return view('Login/login');
+    }
+    public function register_page(): string
+    {
+        return view('Login/register');
     }
 }
