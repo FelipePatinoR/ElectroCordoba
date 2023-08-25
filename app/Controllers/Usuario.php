@@ -6,7 +6,8 @@ use App\Models\UserModel;
 
 class Usuario extends BaseController
 {
-    public function login() {
+	public function login()
+	{
 
 		$correo = $this->request->getPost('email');
 		$password = $this->request->getPost('pass');
@@ -14,27 +15,31 @@ class Usuario extends BaseController
 
 		$datosUsuario = $Usuario->obtenerUsuario(['correo' => $correo]);
 
-		if (count($datosUsuario) > 0 && 
-			password_verify($password, $datosUsuario[0]['contraseña'])) {
+		if (
+			count($datosUsuario) > 0 &&
+			password_verify($password, $datosUsuario[0]['contraseña'])
+		) {
 
 			$data = [
-						"correo" => $datosUsuario[0]['correo'],
-						"tipo" => $datosUsuario[0]['tipo']
-					];
+				"correo" => $datosUsuario[0]['correo'],
+				"tipo" => $datosUsuario[0]['tipo']
+			];
 
 			$session = session();
 			$session->set($data);
 
-			return redirect()->to(base_url('login'))->with('mensaje','Sesion iniciada correctamente');
+
+			return redirect()->to(base_url() . 'login');
 
 		} else {
-			return redirect()->to(base_url('main'))->with('mensaje','Datos Incorrectos');
+			return redirect()->to(base_url() . 'main');
 		}
 
 
 	}
 
-	public function salir() {
+	public function salir()
+	{
 		$session = session();
 		$session->destroy();
 		return redirect()->to(base_url('/'));
@@ -42,22 +47,21 @@ class Usuario extends BaseController
 
 
 
-    public function register() {
+	public function register()
+	{
 
-        $Usuario = new UserModel();
-        $data = [
-            'correo' => $this->request->getPost('email'),
-            'nombre' => $this->request->getPost('name'),
-            'telefono' => $this->request->getPost('tel'),
-            'contraseña' => $this->request->getPost('pass'),
+		$Usuario = new UserModel();
+		$data = [
+			'correo' => $this->request->getPost('email'),
+			'nombre' => $this->request->getPost('name'),
+			'telefono' => $this->request->getPost('tel'),
+			'contraseña' => $this->request->getPost('pass'),
 
-        ];
-        $Usuario->insert($data);
-        return redirect()->to(base_url() . 'login');
+		];
+		$Usuario->insert($data);
+		return redirect()->to(base_url() . 'login');
 
 	}
 
 
 }
-
-

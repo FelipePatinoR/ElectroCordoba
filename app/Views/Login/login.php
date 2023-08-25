@@ -26,25 +26,24 @@
         body {
             background-image: url('<?php echo base_url('img/Fondo.jpg') ?>');
         }
-        
     </style>
     <!-- Boostrap -->
     <link rel="shortcut icon" href="<?php echo base_url('img/icon_pestana_white.png') ?>" />
 
-    
+
 </head>
 
 <body>
     <div style="text-align: center;">
-        <img style="height: 150px;" src="<?php echo base_url('img/icon_pestana_white.png') ?>" >
+        <img style="height: 150px;" src="<?php echo base_url('img/icon_pestana_white.png') ?>">
     </div>
     <div class="row justify-content-center">
         <div class="col-md-4 border">
             <br>
-            <form method="POST" action="<?php echo base_url()?>login">
+            <form method="POST" action="<?php echo base_url() ?>login">
                 <!-- Email input -->
                 <div class="form-outline mb-4 bg-light border border-5 border-white">
-                    <input type="email" id="email" name="email"class="form-control" />
+                    <input type="email" id="email" name="email" class="form-control" />
                     <label class="form-label " for="email">Correo Electronico</label>
                 </div>
                 <!-- Password input -->
@@ -61,5 +60,5 @@
         </div>
     </div>
 </body>
-</html>
 
+</html>
