@@ -33,8 +33,8 @@ $routes->set404Override();
 $routes->get('/', 'Welcome::welcome_page');
 
 $routes->get('/login', 'Welcome::login_page');
-$routes->post('/login', 'Usuario::registrar');
-$routes->post('/login', 'Usuario::iniciar_sesion');
+$routes->post('/login', 'Usuario::login'); // Una sola ruta para manejar el inicio de sesión y el registro
+
 
 
 $routes->get('/main', 'Home::index');
