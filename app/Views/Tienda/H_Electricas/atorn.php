@@ -63,8 +63,7 @@
             <div class="modal-header">
                 <div class="container-fluid">
                     <div class="row text-start">
-                        <h5 class="modal-title">ATORNILLADOR PARA DRYWALL 520W
-                        </h5>
+                        <h5 class="modal-title">ATORNILLADOR PARA DRYWALL 520W</h5>
                     </div>
                     <div class="row text-start">
                         <label>Referencia:</label>
@@ -73,16 +72,41 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;"
-                        src="<?php echo base_url() ?>img/Herramientas_Electricas/Atornilladores/atornillador-para-drywall-520w.jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 250px;"
+                                src="<?php echo base_url() ?>img/Herramientas_Electricas/Atornilladores/atornillador-para-drywall-520w.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Características</h6>
+                            <ul>
+                                <li>520 Watts de potencia</li>
+                                <li>Velocidad variable (0 a 4500 rpm - rotaciones por minutos)</li>
+                                <li>Embrague de desconexión automática - garantía de calidad de los atornillados</li>
+                                <li>Clip de cinturón- mayor practicidad para el desplazamiento del usuario</li>
+                                <li>2 Años de Garantía</li>
+                                <li>Indicada para el Profesional autónomo</li>
+                                <li>Uso: Atornillamiento preciso en madera y drywall, con control y ajuste de profundidad</li>
+                                <li>Público: Instaladores de drywall, tapicería, montaje de pallets y estructuras de madera.</li>
+                            </ul>
+                            
+                            <h6>Especificaciones</h6>
+                            <ul>
+                                <li>Potencia de la herramienta (W): 520</li>
+                                <li>Torsión Máx. (Nm) (Duro): 10</li>
+                                <li>Longitud del cable (m): 4</li>
+                                <li>Diámetro máximo de tornillo (mm): 6 mm</li>
+                                <li>Nº de rotaciones (sin carga) rpm Mínimo y Máximo: 0-4.500</li>
+                                <li>Dimensiones del producto (AxAxL): 21x7x22</li>
+                                <li>Peso: 1,62 Kg</li>
+                            </ul>
+                            
+                            <p>Incluye: 1 Atornillador para Drywall 6520 y 1 manual de instrucciones</p>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -94,6 +118,7 @@
         </div>
     </div>
 </div>
+
 <!-- MODAL 2 -->
 <div class="modal fade" tabindex="-1" id="modal_2" _mstvisible="0">
     <div class="modal-dialog modal-lg">
@@ -110,15 +135,33 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;"
-                        src="<?php echo base_url() ?>img/Herramientas_Electricas/Atornilladores/atornillador-de-impacto-vvr-635mm-makita.jpg" alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 250px;"
+                                src="<?php echo base_url() ?>img/Herramientas_Electricas/Atornilladores/atornillador-de-impacto-vvr-635mm-makita.jpg" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Características</h6>
+                            <ul>
+                                <li>Compacto y ligero</li>
+                                <li>Potencia: 230 W</li>
+                                <li>Revoluciones: 0-3,600 /min.</li>
+                                <li>Zanco (Hex): 6,35 mm (1/4")</li>
+                                <li>Permite atornillar incluso sin pre-perforado.</li>
+                            </ul>
+                            
+                            <h6>Especificaciones</h6>
+                            <ul>
+                                <li>Tornillo para metal: M4-M8 (5/32" - 5/16")</li>
+                                <li>Tornillo estándar: M5-M14 (3/16" - 9/16")</li>
+                                <li>Tornillo de alta resistencia: M5-M10(3/16" - 3/8")</li>
+                                <li>Tornillo gruesa en longitud:22-90mm (7/8" - 3-1/2")</li>
+                                <li>Impactos por minuto : 0 - 3200ipm.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -130,4 +173,5 @@
         </div>
     </div>
 </div>
+
 <?php echo $this->endSection(); ?>

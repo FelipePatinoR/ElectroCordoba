@@ -63,8 +63,7 @@
             <div class="modal-header">
                 <div class="container-fluid">
                     <div class="row text-start">
-                        <h5 class="modal-title">INVERSOR ELITE 160 AMP ELITE ARC160S SI7160DV
-                        </h5>
+                        <h5 class="modal-title">INVERSOR ELITE 160 AMP ELITE ARC160S SI7160DV</h5>
                     </div>
                     <div class="row text-start">
                         <label>Referencia:</label>
@@ -73,16 +72,45 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;"
-                        src="<?php echo base_url() ?>img/Equipos_de_Soldadura/P_Arco_Manual/inversor-elite-160-amp-elite-arc160s.jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 250px;"
+                                src="<?php echo base_url() ?>img/Equipos_de_Soldadura/P_Arco_Manual/inversor-elite-160-amp-elite-arc160s.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Características</h6>
+                            <ul>
+                                <li>Conexión a 110 / 220 V y corriente DC</li>
+                                <li>Excelentes características de arco</li>
+                                <li>Permite soldar en 7018, 6010, 6011, 6013 y todo tipo de electrodos</li>
+                                <li>Turbo ventilación</li>
+                                <li>Conectores rápidos 10 / 25</li>
+                                <li>ARC Force, Hot start y Anti-sick</li>
+                                <li>45% de ciclo de trabajo</li>
+                            </ul>
+                            
+                            <h6>Accesorios Incluidos</h6>
+                            <ul>
+                                <li>Conjunto pinza de masa</li>
+                                <li>Conjunto pinza porta electrodos</li>
+                            </ul>
+                            
+                            <h6>Especificaciones</h6>
+                            <ul>
+                                <li>Voltaje de entrada: 110 / 220 V 1ph (+/- 10%)</li>
+                                <li>Frecuencia: 50 / 60 Hz</li>
+                                <li>Voltaje en vacío: 85 V</li>
+                                <li>Rango de corriente: 10 - 160 Amp</li>
+                                <li>Ciclo de trabajo a 40°: 45%</li>
+                                <li>Fusible mínimo recomendado: 25 A</li>
+                                <li>Corriente de salida: DC</li>
+                                <li>Peso: 4.5 kg</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -94,6 +122,7 @@
         </div>
     </div>
 </div>
+
 <!-- MODAL 2 -->
 <div class="modal fade" tabindex="-1" id="modal_2" _mstvisible="0">
     <div class="modal-dialog modal-lg">
@@ -101,8 +130,7 @@
             <div class="modal-header">
                 <div class="container-fluid">
                     <div class="row text-start">
-                        <h5 class="modal-title">SOLDADOR TIPO INVERSOR CON 220 AMPERIOS SI9220DV
-                        </h5>
+                        <h5 class="modal-title">SOLDADOR TIPO INVERSOR CON 220 AMPERIOS SI9220DV</h5>
                     </div>
                     <div class="row text-start">
                         <label>Referencia:</label>
@@ -111,16 +139,28 @@
                 <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="col-md-4">
-                    <img style="height: 350px;"
-                        src="<?php echo base_url() ?>img/Equipos_de_Soldadura/P_Arco_Manual/soldador-tipo-inversor-con-220-amperios.jpg"
-                        alt="">
-                </div>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-md-4">
+                            <img style="height: 250px;"
+                                src="<?php echo base_url() ?>img/Equipos_de_Soldadura/P_Arco_Manual/soldador-tipo-inversor-con-220-amperios.jpg"
+                                alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>Características</h6>
+                            <ul>
+                                <li>Excelentes características de arco, permitiendo soldar en 7018, 6010, 6011, 6013 y todo tipo de electrodos.</li>
+                                <li>Voltaje de entrada: 110v-220v-1 ph (+/- 10%)</li>
+                                <li>Frecuencia: 50 / 60 Hz</li>
+                                <li>Voltaje en vacío: 85 V</li>
+                                <li>Rango de corriente: 10-220 amp</li>
+                                <li>Ciclo de trabajo a 40 °: 60 %</li>
+                                <li>Fusible mínimo recomendado: 16A</li>
+                                <li>Peso: 7.5 kg</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <p></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
@@ -132,4 +172,5 @@
         </div>
     </div>
 </div>
+
 <?php echo $this->endSection(); ?>

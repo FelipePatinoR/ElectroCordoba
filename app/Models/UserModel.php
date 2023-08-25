@@ -10,4 +10,9 @@ class UserModel extends Model
     protected $useAutoIncrement = true;
     protected $returnType = 'array';
     protected $allowedFields = ['nombre', 'correo', 'telefono', 'contraseña'];
+
+    public function obtenerUsuario($data)
+    {
+        return $this->where($data)->first(); // Utilizamos first() en lugar de getRowArray()
+    }
 }
