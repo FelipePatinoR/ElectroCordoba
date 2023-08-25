@@ -126,7 +126,7 @@
                             </ul>
 
                             
-                            <h6>Precio: $18.400</h6>
+                            <h6>Precio: $13.000</h6>
                             
                         </div>
 
@@ -187,7 +187,7 @@
                                 <li>Espada: 400mm (16 pulg)</li>
                                 <li>Cadena: Paso de la cadena: 3/8 pulg Grosor del diente: 1,3 pulg ó 0,050 pulg</li>
                             </ul>
-                            <h6>Precio: $18.400</h6>
+                            <h6>Precio: $800.000</h6>
                         </div>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                                 <li>Freno</li>
                                 <li>Arranque Suave</li>
                             </ul>
-                            <h6>Precio: $18.400</h6>
+                            <h6>Precio: $600.000</h6>
                         </div>
                     </div>
                 </div>

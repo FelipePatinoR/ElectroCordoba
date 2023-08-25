@@ -105,6 +105,7 @@
                                 <li>Capacidad en madera: 25/32" (20mm)</li>
                                 <li>Cable: 1,5m</li>
                             </ul>
+                            <h6>Precio: $130.000</h6>
                         </div>
                     </div>
                 </div>
@@ -168,6 +169,7 @@
                                 <li>Altura: 240 mm</li>
                                 <li>Peso del producto: 2.07 kg</li>
                             </ul>
+                            <h6>Precio: $200.000</h6>
                         </div>
                     </div>
                 </div>

@@ -104,6 +104,7 @@
                             </ul>
                             
                             <p>Incluye: 1 Atornillador para Drywall 6520 y 1 manual de instrucciones</p>
+                            <h6>Precio: $130.000</h6>
                         </div>
                     </div>
                 </div>
@@ -159,6 +160,7 @@
                                 <li>Tornillo gruesa en longitud:22-90mm (7/8" - 3-1/2")</li>
                                 <li>Impactos por minuto : 0 - 3200ipm.</li>
                             </ul>
+                            <h6>Precio: $150.000</h6>
                         </div>
                     </div>
                 </div>

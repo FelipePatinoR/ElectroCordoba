@@ -108,6 +108,7 @@
                                 <li>Corriente de salida: DC</li>
                                 <li>Peso: 4.5 kg</li>
                             </ul>
+                            <h6>Precio: $4.333.555</h6>
                         </div>
                     </div>
                 </div>
@@ -158,6 +159,7 @@
                                 <li>Fusible mínimo recomendado: 16A</li>
                                 <li>Peso: 7.5 kg</li>
                             </ul>
+                            <h6>Precio: $1.500.000</h6>
                         </div>
                     </div>
                 </div>

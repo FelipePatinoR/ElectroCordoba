@@ -92,6 +92,7 @@
                                 <li>Pinza a tierra con cable de 2m</li>
                                 <li>Máscara y cepillo</li>
                             </ul>
+                            <h6>Precio: $1.800.000</h6>
                         </div>
                     </div>
                 </div>

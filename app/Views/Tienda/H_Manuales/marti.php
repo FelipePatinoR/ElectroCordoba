@@ -107,6 +107,7 @@
                                 <li>Uñas del martillo 15% más largas para más facilidad al sacar clavos.</li>
                                 <li>Peso de cabeza: 369g</li>
                             </ul>
+                            <h6>Precio: $16.500</h6>
                         </div>
                     </div>
                 </div>
@@ -152,6 +153,7 @@
                                 <li>La cabeza del martillo está fija con 2 cuñas para más durabilidad.</li>
                                 <li>Mango 25% más largo en los tamaños 16-40 ozs para mejor equilibrio y control.</li>
                             </ul>
+                            <h6>Precio: $14.300</h6>
                         </div>
                     </div>
                 </div>
@@ -198,6 +200,7 @@
                                 <li>La cabeza del martillo está fija con 2 cuñas para más durabilidad.</li>
                                 <li>Mango 25% más largo en los tamaños 16-40 ozs para mejor equilibrio y control.</li>
                             </ul>
+                            <h6>Precio: $17.500</h6>
                         </div>
                     </div>
                 </div>

@@ -80,6 +80,7 @@
                                 <li>Medidas externas: 21.5 largo x 23.0 ancho x 32.3cm alto</li>
                                 <li>Peso: 0.4 kg</li>
                             </ul>
+                            <h6>Precio: $130.000</h6>
                         </div>
                     </div>
                 </div>

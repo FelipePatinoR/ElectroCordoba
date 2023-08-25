@@ -109,6 +109,7 @@
                                 <li>La construcción de resina de alta tecnología proporciona fuerza y durabilidad.</li>
                                 <li>Profundidad de garganta: 1 pulg.</li>
                             </ul>
+                            <h6>Precio: $5.000</h6>
                         </div>
                     </div>
                 </div>
@@ -156,6 +157,7 @@
                                 <li>Quijadas maquinadas para mejor agarre.</li>
                                 <li>Mangos recubiertos con doble plastisol anti-deslizante.</li>
                             </ul>
+                            <h6>Precio: $25.000</h6>
                         </div>
                     </div>
                 </div>
@@ -206,6 +208,7 @@
                                 <li>Tamaño: 6".</li>
                                 <li>1 año de garantía.</li>
                             </ul>
+                            <h6>Precio: $12.000</h6>
                         </div>
                     </div>
                 </div>

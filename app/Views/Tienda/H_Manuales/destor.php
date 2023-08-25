@@ -115,6 +115,7 @@
                                 <li>BARRA: Redonda</li>
                                 <li>CATEGORÍA: De punta Torx</li>
                             </ul>
+                            <h6>Precio: $8.000</h6>
                         </div>
                     </div>
                 </div>
@@ -163,6 +164,7 @@
                                 <li>Puntas magnéticas y fosfatadas.</li>
                                 <li>Mangos coordinados por color: rojo (Estándar), azul (Phillips®), negro (Torx®).</li>
                             </ul>
+                            <h6>Precio: $9.000</h6>
                         </div>
                     </div>
                 </div>
@@ -212,6 +214,7 @@
                                 <li>Puntas magnéticas y fosfatadas.</li>
                                 <li>Mangos coordinados por color: rojo (Estándar), azul (Phillips®), negro (Torx®).</li>
                             </ul>
+                            <h6>Precio: $11.000</h6>
                         </div>
                     </div>
                 </div>

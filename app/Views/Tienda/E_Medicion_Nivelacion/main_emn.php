@@ -115,6 +115,7 @@
                                 <li>Rango de medición: 0,15 – 20,00</li>
                                 
                             </ul>
+                            <h6>Precio: $250.000</h6>
                         </div>
                     </div>
                 </div>
@@ -166,7 +167,7 @@
                                 <li>Rango de Medición: Temperatura de la superficie: -30°C a +500 grados Centígrados.</li>
                                
                             </ul>
-                            
+                            <h6>Precio: $350.000</h6>
                         </div>
                     </div>
                 </div>
@@ -218,6 +219,7 @@
                             
                             <h6>Aplicaciones</h6>
                             <p>Medición de alturas para nivelación</p>
+                            <h6>Precio: $200.000</h6>
                         </div>
                     </div>
                 </div>
