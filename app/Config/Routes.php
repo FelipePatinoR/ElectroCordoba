@@ -36,6 +36,10 @@ $routes->post('/register', 'Usuario::register');
 $routes->get('/login', 'Welcome::login_page');
 $routes->post('/login', 'Usuario::login');
 
+// $routes->get('/prueba', 'Welcome::prueba');
+
+
+
 
 
 

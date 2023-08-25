@@ -16,23 +16,21 @@ class Usuario extends BaseController
 		$datosUsuario = $Usuario->obtenerUsuario(['correo' => $correo]);
 
 		if (
-			count($datosUsuario) > 0 &&
-			password_verify($password, $datosUsuario[0]['contraseña'])
+			count($datosUsuario) > 0  &&
+			$password == $datosUsuario[0]['contraseña']
 		) {
 
 			$data = [
-				"correo" => $datosUsuario[0]['correo'],
-				"tipo" => $datosUsuario[0]['tipo']
+				"correo" => $datosUsuario[0]['correo']
 			];
 
 			$session = session();
 			$session->set($data);
 
 
-			return redirect()->to(base_url() . 'login');
-
-		} else {
 			return redirect()->to(base_url() . 'main');
+		} else {
+			return redirect()->to(base_url(). 'login');
 		}
 
 

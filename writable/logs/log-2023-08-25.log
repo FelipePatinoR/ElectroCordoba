@@ -1024,3 +1024,115 @@ INFO - 2023-08-25 20:02:21 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-25 20:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 20:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 20:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 20:41:49 --> Invalid file: "prueba.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\Welcome.php(22): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Welcome->prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:43:49 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Usuario.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Controllers\\Usuario.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Usuario')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Usuario', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:50:35 --> Undefined array key 1
+in APPPATH\Controllers\Usuario.php on line 19.
+ 1 APPPATH\Controllers\Usuario.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Controllers\\Usuario.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:50:57 --> Undefined array key 1
+in APPPATH\Controllers\Usuario.php on line 19.
+ 1 APPPATH\Controllers\Usuario.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Controllers\\Usuario.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:51:52 --> Undefined array key "tipo"
+in APPPATH\Controllers\Usuario.php on line 24.
+ 1 APPPATH\Controllers\Usuario.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Controllers\\Usuario.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 20:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 20:52:07 --> Invalid file: "http://localhost/Proyecto_Final/public/prueba.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/Proyecto_Final/public/prueba.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('http://localhost/Proyecto_Final/public/prueba', [], true)
+ 3 APPPATH\Controllers\Usuario.php(30): view('http://localhost/Proyecto_Final/public/prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 20:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 20:52:49 --> Invalid file: "http://localhost/Proyecto_Final/public/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/Proyecto_Final/public/main.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('http://localhost/Proyecto_Final/public/main', [], true)
+ 3 APPPATH\Controllers\Usuario.php(30): view('http://localhost/Proyecto_Final/public/main')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 20:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 20:52:56 --> Invalid file: "http://localhost/Proyecto_Final/public/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/Proyecto_Final/public/main.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('http://localhost/Proyecto_Final/public/main', [], true)
+ 3 APPPATH\Controllers\Usuario.php(30): view('http://localhost/Proyecto_Final/public/main')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 20:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 20:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 20:56:23 --> Unclosed '{' on line 10 does not match ')'
+in APPPATH\Controllers\Usuario.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Controllers\\Usuario.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Usuario')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Usuario')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Usuario', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 20:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 20:56:42 --> Invalid file: "http://localhost/Proyecto_Final/public/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/Proyecto_Final/public/main.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('http://localhost/Proyecto_Final/public/main', [], true)
+ 3 APPPATH\Controllers\Usuario.php(30): view('http://localhost/Proyecto_Final/public/main')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 21:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 21:00:20 --> Invalid file: "http://localhost/Proyecto_Final/public/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/Proyecto_Final/public/main.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('http://localhost/Proyecto_Final/public/main', [], true)
+ 3 APPPATH\Controllers\Usuario.php(30): view('http://localhost/Proyecto_Final/public/main')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 21:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 21:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 21:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 21:02:53 --> Undefined array key "pass"
+in APPPATH\Controllers\Usuario.php on line 20.
+ 1 APPPATH\Controllers\Usuario.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Controllers\\Usuario.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-25 21:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 21:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
