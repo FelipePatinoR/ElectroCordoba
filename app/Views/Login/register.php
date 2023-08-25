@@ -47,31 +47,17 @@
                 <!-- Name input -->
                 <div class="form-outline mb-4 bg-light border border-5 border-white">
                     <input type="text" id="name" name="name" class="form-control" />
-                    <label class="form-label" for="name">Contraseña</label>
+                    <label class="form-label" for="name">Nombre</label>
+                </div>
+                <!-- telefono input -->
+                <div class="form-outline mb-4 bg-light border border-5 border-white">
+                    <input type="telefono" id="tel" name="tel" class="form-control" />
+                    <label class="form-label" for="tel">Telefono</label>
                 </div>
                 <!-- Password input -->
                 <div class="form-outline mb-4 bg-light border border-5 border-white">
                     <input type="password" id="pass" name="pass" class="form-control" />
                     <label class="form-label" for="pass">Contraseña</label>
-                </div>
-                <!-- Confirm Password input -->
-                <div class="form-outline mb-4 bg-light border border-5 border-white">
-                    <input type="password" id="cpass" name="cpass" class="form-control" />
-                    <label class="form-label" for="pass">Confirmar Contraseña</label>
-                </div>
-                <!-- type user input -->
-                <div class=" justify-content-center">
-                    <div class="form-outline mb-4 bg-light border border-5 border-white">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="type1" id="type1" value="1" />
-                            <label class="form-check-label" for="type1">Usuario</label>
-                        </div>
-
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="type2" id="type2" value="2" />
-                            <label class="form-check-label" for="type2">Administrador</label>
-                        </div>
-                    </div>
                 </div>
                 <!-- Submit button -->
                 <button type="submit" class="btn btn-primary btn-block mb-4">Registrarse</button>

@@ -34,6 +34,8 @@ $routes->get('/', 'Welcome::welcome_page');
 $routes->get('/register', 'Welcome::register_page');
 $routes->get('/login', 'Welcome::login_page');
 $routes->post('/login', 'Usuario::login');
+$routes->post('/register', 'Usuario::register');
+
 
 
 $routes->get('/main', 'Home::index');

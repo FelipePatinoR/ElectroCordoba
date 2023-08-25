@@ -25,10 +25,10 @@ class Usuario extends BaseController
 			$session = session();
 			$session->set($data);
 
-			return redirect()->to(base_url('main'))->with('mensaje','Sesion iniciada correctamente');
+			return redirect()->to(base_url('login'))->with('mensaje','Sesion iniciada correctamente');
 
 		} else {
-			return redirect()->to(base_url('login'))->with('mensaje','Datos Incorrectos');
+			return redirect()->to(base_url('main'))->with('mensaje','Datos Incorrectos');
 		}
 
 
@@ -39,4 +39,25 @@ class Usuario extends BaseController
 		$session->destroy();
 		return redirect()->to(base_url('/'));
 	}
+
+
+
+    public function register() {
+
+        $Usuario = new UserModel();
+        $data = [
+            'correo' => $this->request->getPost('email'),
+            'nombre' => $this->request->getPost('name'),
+            'telefono' => $this->request->getPost('tel'),
+            'contraseña' => $this->request->getPost('pass'),
+
+        ];
+        $Usuario->insert($data);
+        return redirect()->to(base_url() . 'login');
+
+	}
+
+
 }
+
+
