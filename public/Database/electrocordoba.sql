@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-08-2023 a las 00:53:51
+-- Tiempo de generación: 25-08-2023 a las 02:14:50
 -- Versión del servidor: 10.4.28-MariaDB-log
 -- Versión de PHP: 8.2.4
 
@@ -32,6 +32,16 @@ CREATE TABLE `categoria` (
   `nombre` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `categoria`
+--
+
+INSERT INTO `categoria` (`id_categoria`, `nombre`) VALUES
+(1, 'HERRAMIENTAS MANUALES'),
+(2, 'EQUIPO DE SOLDADURA'),
+(3, 'HERRAMIENTAS ELECTRICAS'),
+(6, 'GENERAL');
+
 -- --------------------------------------------------------
 
 --
@@ -59,6 +69,35 @@ CREATE TABLE `producto` (
   `id_subcategoria` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `producto`
+--
+
+INSERT INTO `producto` (`id_producto`, `nombre`, `cantidad`, `precio`, `id_venta`, `id_subcategoria`) VALUES
+(1, 'PRENSA PINZA QUICK GRIP 1 PULG', 10, 5000, NULL, 1),
+(2, 'ALICATE CORTE DIAGONAL STANLEY', 10, 12000, NULL, 1),
+(3, 'ALICATE CORTE DIAGONAL STANLEY', 10, 13000, NULL, 1),
+(4, 'DESTORNILLADOR BARRA REDONDA P', 10, 8000, NULL, 2),
+(5, 'DESTORNILLADOR ESTRELLA 2.3/4X', 10, 9000, NULL, 2),
+(6, 'DESTORNILLADOR PRO PUNTA ESTAN', 10, 11000, NULL, 2),
+(7, 'MARTILLO CON MANGO DE MADERA C', 10, 16500, NULL, 3),
+(8, 'MARTILLO DE BOLA 16 ONZAS STAN', 10, 14300, NULL, 3),
+(9, 'MARTILLO DE BOLA ONZAS STANLEY', 10, 17500, NULL, 3),
+(10, 'CARETA PARA SOLDAR INTELIGENTE', 10, 130000, NULL, 4),
+(11, 'INVERSOR ELITE 160 AMP ELITE A', 10, 4333555, NULL, 5),
+(12, 'SOLDADOR TIPO INVERSOR CON 220', 10, 1500000, NULL, 5),
+(13, 'SOLDADOR HYUNDAI 180 AMP. 11/2', 10, 1800000, NULL, 6),
+(14, 'ATORNILLADOR PARA DRYWALL 520W', 10, 130000, NULL, 7),
+(15, 'ATORNILLADOR DE IMPACTO VVR 6.', 10, 150000, NULL, 7),
+(16, 'TALADRO PERCUTOR 3/8 PULG 550W', 10, 130000, NULL, 8),
+(17, 'TALADRO PERCUTOR 1/2\" 710 W EI', 10, 200000, NULL, 8),
+(18, 'JUEGO DE 2 ACOPLES RAPIDOS ENT', 10, 13000, NULL, 12),
+(19, 'ELECTROSIERRA MAKITA UC4051A 1', 10, 800000, NULL, 12),
+(20, 'CORTASETOS MAKITA DUH551Z 18+1', 10, 600000, NULL, 12),
+(21, 'MEDIDOR DE DISTANCIA LASER 20 ', 10, 250000, NULL, 13),
+(22, 'TERMOMETRO INFRAROJO BOSCH GIS', 10, 350000, NULL, 13),
+(23, 'REGLA DE MEDICION PARA NIVEL O', 10, 200000, NULL, 13);
+
 -- --------------------------------------------------------
 
 --
@@ -70,6 +109,22 @@ CREATE TABLE `subcategoria` (
   `nombre` varchar(40) NOT NULL,
   `id_categoria` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `subcategoria`
+--
+
+INSERT INTO `subcategoria` (`id_subcategoria`, `nombre`, `id_categoria`) VALUES
+(1, 'ALICATES Y PINZAS', 1),
+(2, 'DESTORNILLADORES', 1),
+(3, 'MARTILLOS', 1),
+(4, 'ACCESORIOS Y CONSUMIBLES', 2),
+(5, 'PROCESO ARCO MANUAL', 2),
+(6, 'PROCESO MIG', 2),
+(7, 'ATORNILLADORES', 3),
+(8, 'TALADROS', 3),
+(12, 'EQUIPO PARA JARDINERIA', 6),
+(13, 'EQUIPOS DE MEDICION Y NIVELACION', 6);
 
 -- --------------------------------------------------------
 
@@ -133,7 +188,7 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de la tabla `categoria`
 --
 ALTER TABLE `categoria`
-  MODIFY `id_categoria` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_categoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `compra`
@@ -145,13 +200,13 @@ ALTER TABLE `compra`
 -- AUTO_INCREMENT de la tabla `producto`
 --
 ALTER TABLE `producto`
-  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT de la tabla `subcategoria`
 --
 ALTER TABLE `subcategoria`
-  MODIFY `id_subcategoria` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_subcategoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT de la tabla `usuario`
