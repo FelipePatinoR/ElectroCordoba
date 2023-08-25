@@ -912,15 +912,25 @@ in APPPATH\Controllers\Usuario.php on line 23.
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 >>>>>>> ae8c45086bb11b0c5f56759ceaa757ce6f1a2318
+<<<<<<< HEAD
 CRITICAL - 2023-08-25 18:39:21 --> syntax error, unexpected token "return"
 in APPPATH\Models\UserModel.php on line 20.
  1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Models\\UserModel.php')
  2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
  3 APPPATH\Controllers\Usuario.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+=======
+INFO - 2023-08-25 19:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 19:26:45 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Usuario.php(72): view('login', [...])
+>>>>>>> 1475d62c547ffe85d29670605d6480d92228ad9f
  4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->login()
  5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
  6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+<<<<<<< HEAD
 CRITICAL - 2023-08-25 18:40:11 --> syntax error, unexpected token "return"
 in APPPATH\Models\UserModel.php on line 20.
  1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ARCHIVOS PROGRAMAS INSTALADOS\\Xampp\\htdocs\\Proyecto_Final\\app\\Models\\UserModel.php')
@@ -970,3 +980,5 @@ INFO - 2023-08-25 19:08:11 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-25 19:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 19:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-25 19:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
+>>>>>>> 1475d62c547ffe85d29670605d6480d92228ad9f
