@@ -55,15 +55,15 @@
                 <div class="form-item log-in">
                     <div class="table">
                         <div class="table-cell">
-                            <form method="" action="">
+                            <form method="POST" action="<?php echo base_url() ?>login">
                                 <!-- Correo Electronico -->
                                 <div class="form-outline mb-4">
-                                    <input type="email" id="correo_login" class="form-control"
+                                    <input required type="email" id="correo_login" name="correo_login" class="form-control"
                                         placeholder="Correo Electronico" />
                                 </div>
                                 <!-- Contraseña -->
                                 <div class="form-outline mb-4">
-                                    <input type="password" id="contrasena_login" class="form-control"
+                                    <input required type="password" id="contrasena_login" name="contrasena_login" class="form-control"
                                         placeholder="Contraseña" />
                                 </div>
                                 <!-- Boton Iniciar Sesion -->

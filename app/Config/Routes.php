@@ -34,6 +34,8 @@ $routes->get('/', 'Welcome::welcome_page');
 
 $routes->get('/login', 'Welcome::login_page');
 $routes->post('/login', 'Usuario::registrar');
+$routes->post('/login', 'Usuario::iniciar_sesion');
+
 
 $routes->get('/main', 'Home::index');
 $routes->get('/mi_perfil', 'Perfil::perfil');
