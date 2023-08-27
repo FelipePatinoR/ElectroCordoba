@@ -39,6 +39,9 @@ $routes->post('/login', 'Usuario::login');
 // $routes->get('/prueba', 'Welcome::prueba');
 
 
+$routes->post('/productos/form_registrar', 'Producto::registrar');
+$routes->get('/productos/form_registrar', 'Producto::form_registro');
+
 
 
 
